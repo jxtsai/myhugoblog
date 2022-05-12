@@ -1,4 +1,4 @@
-baseURL = "https://localhost"
+baseURL = "https://blog.jxtsai.info"
 title = "Just another backup-site on bitbucket"
 enableRobotsTXT = true
 enableEmoji = true
