@@ -1,5 +1,5 @@
 baseURL = "https://blog.jxtsai.info"
-title = "Just another backup-site on bitbucket"
+title = "personal blog buit by hugo, hosted on github and  deployed by render"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
