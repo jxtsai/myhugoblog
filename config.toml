@@ -7,7 +7,7 @@ theme = "jane"
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 3              # Number of articles displayed on the homepage # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-disqusShortname = ""      # disqus_shortname
+disqusShortname = "jxtsai"      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
@@ -59,9 +59,9 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "原始主站"
+  name = "NGO 推進器"
   weight = 50
-  url = "https://blog.jxtsai.info"
+  url = "https://medium.twngo.xyz"
 
 
 [params]
@@ -163,7 +163,7 @@ defaultContentLanguage = "en"           # Default language to use
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
-    c-twitter = "http://localhost:1313"
+    c-twitter = "https://social.slat.org/@jxtsai"
     e-linkedin = "http://localhost:1313"
     g-github = "https://github.com/jxtsai"
     l-tumblr = "https://video.jxtsai.info"
