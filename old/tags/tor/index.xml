@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tor on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/tor/</link>
+    <description>Recent content in Tor on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 22 Jun 2017 18:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/tor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>搭建洋蔥網路的中繼 Tor Relay (II)</title>
+      <link>https://blog.jxtsai.info/2017/06/22/torrelay-2/</link>
+      <pubDate>Thu, 22 Jun 2017 18:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/22/torrelay-2/</guid>
+      <description>&lt;p&gt;話說一個星期前試著在自己家裏的&lt;a href=&#34;https://blog.jxtsai.info/2017/06/14/torrelay/&#34;&gt;桌機作成一個TOR Relay&lt;/a&gt;，讓它可以成為匿名洋蔥網路裏小小的一處志願節點，提供給有需要使用TOR匿名上網的用戶作為其中的一個跳板節點。這期間收到一些網友的回應，有人告訴我，TOR名氣雖大但在中國的使用情況並不理想，一方面速度慢一方面有傳聞說國家機器為指染偽裝成中繼，造成更大的問題等等。也有國外網友提醒我最好小心不要在自家裝中繼，因為很可能讓警察找上門。。。。這些回饋對於一個技術白丁，都指引著我如何了解這些陌生的「工具」，讓我可以摸索地找到一個看清問題解決問題的方向，這些幫助和提醍先放在心裏感謝。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何搭建洋蔥網路的中繼 Tor Relay (1)</title>
+      <link>https://blog.jxtsai.info/2017/06/14/torrelay/</link>
+      <pubDate>Wed, 14 Jun 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/14/torrelay/</guid>
+      <description>&lt;p&gt;TOR算是網路自由工具中的旗艦明星級軟體，一方面它問世早（一開始還是由美國海軍投入開發，就如網際網路的催生也脫不了60年代冷戰對峙，美國軍方擔心第三世戰發生所作的風險分散因應），二來它在脫離美國軍方後吸引了許多長期在開源社群與重視匿名隱私的密碼學叛客投入貢獻，累積下不少有形無形的資源。現在基本的互聯網隱私入門ABC都會提到利用TOR瀏覽器來作匿名訪問的保護建議。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OONIprobe/ M-lab 在地中文化翻釋</title>
+      <link>https://blog.jxtsai.info/2017/05/15/ooniprobe/</link>
+      <pubDate>Mon, 15 May 2017 13:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/15/ooniprobe/</guid>
+      <description>&lt;p&gt;這兩三週翻譯了二個小東西，一個是TOR 計畫底下的一支專案：&lt;a href=&#34;https://ooni.torproject.org/&#34;&gt;OONIProbe&lt;/a&gt;,它是一個偵察測量用戶所在的互聯網自治區內（AS, Autonomous System）是否存在著網路審查與流量監控的記錄工具。另一個是&lt;a href=&#34;https://www.measurementlab.net/&#34;&gt;M-Lab&lt;/a&gt;欲讓一般網路用戶安裝在其Chrome瀏覽器的延伸套件，以助其收集全球網路連線的健康狀態數據。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

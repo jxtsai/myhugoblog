@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <title>android 手機應用製作 &middot; Return to laughter</title>
+    <meta name="generator" content="Hugo 0.40.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="jxtsai">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="https://blog.jxtsai.info/2017/11/26/android-apk/"/>
+    <link rel="icon" href="https://blog.jxtsai.info/favicon.ico">
+    <link rel="apple-touch-icon" href="https://blog.jxtsai.info/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/style.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/monokai.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="android 手機應用製作" />
+<meta property="og:description" content="最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：
+
+
+MIT App Invertor
+Cordova
+網路上「免費」快速的手機應用軟體打造網站，如 ibuildapp, appsgeyser, androidcreator 等等。
+
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jxtsai.info/2017/11/26/android-apk/" />
+
+
+
+<meta property="article:published_time" content="2017-11-26T09:14:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-11-26T09:14:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="android 手機應用製作">
+<meta itemprop="description" content="最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：
+
+
+MIT App Invertor
+Cordova
+網路上「免費」快速的手機應用軟體打造網站，如 ibuildapp, appsgeyser, androidcreator 等等。
+
+
+">
+
+
+<meta itemprop="datePublished" content="2017-11-26T09:14:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-11-26T09:14:00&#43;00:00" />
+<meta itemprop="wordCount" content="0">
+
+
+
+<meta itemprop="keywords" content="android," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="android 手機應用製作"/>
+<meta name="twitter:description" content="最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：
+
+
+MIT App Invertor
+Cordova
+網路上「免費」快速的手機應用軟體打造網站，如 ibuildapp, appsgeyser, androidcreator 等等。
+
+
+"/>
+<meta name="twitter:site" content="@a5288"/>
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://blog.jxtsai.info/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://blog.jxtsai.info/css/images/logo.png')"></i>
+          
+          <span class="site-title">Return to laughter</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/">home</a>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="http://self.jxtsai.info">old site</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://medium.jxtsai.info">medium</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://blog.jxtsai.info/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/">home</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="http://self.jxtsai.info">old site</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://medium.jxtsai.info">medium</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://blog.jxtsai.info/css/images/avatar.png">
+      
+      <h2 id="name">jxtsai</h2>
+      <h3 id="title">nerd - queer - social parasite</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>internet</span>
+      
+          <a id="follow" href="https://quitter.se/a5288">
+              Follow
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        71
+        <span>Posts</span>
+      </div>
+      <div class="article-info-block">
+        
+          60
+        
+        <span>
+            Tags
+        </span>
+      </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/jxtsai" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+<td><a href="//codepen.io/jxtsai" target="_blank" title="CodePen"><i class="fa fa-codepen"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//flickr.com/photos/a5288" target="_blank" title="Flickr"><i class="fa fa-flickr"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/a5288" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="https://blog.jxtsai.info/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="https://blog.jxtsai.info/2017/11/26/android-apk/">
+    <h1 class="article-title" itemprop="name">
+        android 手機應用製作
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-11-26 09:14:00 &#43;0000 &#43;0000" itemprop="datePublished">2017-11-26</time>
+            &middot;
+            0
+            words
+            &middot;
+            0
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">internet</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/android">android</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：</p>
+
+<ol>
+<li>MIT App Invertor</li>
+<li>Cordova</li>
+<li>網路上「免費」快速的手機應用軟體打造網站，如 <a href="https://ibuildapp.com">ibuildapp</a>, <a href="https://appsgeyser.com">appsgeyser</a>, <a href="https://www.androidcreator.com">androidcreator</a> 等等。</li>
+</ol>
+
+<p></p>
+
+<p>手機應用製作的粗略比較
+<img src="/post/app-builder.png" alt="" /></p>
+
+<p>考量本身的時間投入和自己目前的能力所及等因素後，姑且決定先以 <a href="https://androidcreator.com">androidcreator</a> 為作入門者第一支手機應用製作的示範。</p>
+
+<h3 id="a-androidcreator-優缺點">A. AndroidCreator　優缺點：</h3>
+
+<p>好處：直覺化操作，連用安裝用戶推送訊的 Firebase  設定都不用自己動手，使用者完全不必具任何網站前端知識，即可在「彈指之間」快速作出一個手機應用；簡單易用免費無廣告（100位安裝者以下）；</p>
+
+<p>缺點：陽春，版型有限且不太好看；內容必須為在線「資訊」，換言之無法支援無上網環境的使用，如果在 androidcreator 網站上把 app 專案刪除，則便無法使用。僅有 android 版，無 iphone, ipad 版本；<strong>安全性令人擔心，故不要透過它</strong>進行任何交易或留下詳細的個人資訊。　</p>
+
+<h3 id="b-入門新手">B. 入門新手</h3>
+
+<p>先用電郵信箱，申請一個帳號，正常登入後即會在 Applications 底下看到　“Create App” 按鈕，然後網站會以「製作精靈」模式一步一步自動帶領用戶完成第一支手機應用。</p>
+
+<p><img src="/post/20171126-1.png" alt="" /></p>
+
+<p>step 1. 第一件事是為這個新 app 取名，並上傳一個小圖示，作為它將顯示在手機上圖標。這些必填入的資訊，在稍後可以再變更，故可先隨便亂填。
+<img src="/post/20171126-2.png" alt="" />
+step 2. 第二件事是挑選一個樣式主題。之前曾提過，這個網站上提供的樣式少也沒什麼設計感，所以隨便挑哪一個似乎都沒差。
+<img src="/post/20171126-3.png" alt="" />
+step 3. 接下來出現的畫面是詢問這款手機應用的功能作用是什麼，目前它大約提供的服務就是以下這八大項。建議新手測試，可先挑 web app 選項，因為它只需填入只需一個網址資訊即可。基本上這樣就算結束了（茶）。AC 會接手下來的任務，在三分鐘內把 apk 檔案做好，並讓用戶可在左側欄位中的「Download app」地方下載此應用程式檔案。</p>
+
+<p><img src="/post/20171126-4.png" alt="" />
+<img src="/post/20171126-5.png" alt="" />
+<img src="/post/20171126-7.png" alt="" />
+<img src="/post/20171126-8.png" alt="" /></p>
+
+<h3 id="c-精進修改">C. 精進修改</h3>
+
+<h4 id="a-sections">a). Sections</h4>
+
+<p>上半部新手入門介紹，快速地作出了一個手機應用。下載後安裝開啟，這款新手 app 就是一個簡單連上（某網站，網頁）apk 打包版，基本上跟利用手機的瀏覧器打開網頁沒什麼不一樣╮(╯◇╰)╭。但用戶若以應用開啟網頁內容，則無法如使用一般瀏覧器時，後者可以察看 url 資訊，故無法得知此網頁是否有透過安全加密連線訪問。換言之若有心想耍詐弄個假冒網頁來釣魚，其實還蠻危險的。<strong>故提醒任何使用者，這種利用第三方服務製作的手機應用，內容不要涉及任何財務、明確的個人資料等資訊。</strong></p>
+
+<p>接下來的任務是對目前僅提供一行網址的 app，如何修改強化其功能內容。一樣是在登入後，挑選欲進行更動的 app，左側即是它的「工作選單區」。其中最常會使用到的，就是&rdquo;sections&rdquo;，它的作用就是會出現在手機應用「選單（menu）」底下的各式內容。新建一組 section 就可以為原本只有一個網站連結的 app 增加放入其它內容（功能）。選擇「Create section」按鈕後，會引導進入到各種功能選項，就有點類似上述新手入門 step 3　的步驟再重覆一次。換言之，在這款手機應用中可以包含多個網站，影片或文字等等內容。section 底下的進階設定（Advanced setting），則是可以再稍微調整此部份在手機上顯示的效果，例如是否為它新增一個小圖標或是用戶必須透過外部瀏覧器來開啟此內容等等。
+<img src="/post/20171126-9.png" alt="" />
+<img src="/post/20171126-10.png" alt="" /></p>
+
+<p>光一個 web app 功能，就可以讓我們放入各種有的沒有的網路資源（但前提是該服務網頁支援「響應式主題」，否則在手機或平板上觀看會很不舒服）其實目前網路上有許多現成可用的服務，如 google form, typeform, google calendar, trello, airtable&hellip;），利用這些資源來作用戶問卷，社團行事曆，訊息看版等等資訊，都可很快地整合放入此 apk 當中。
+<img src="/post/20171126-11.png" alt="" />
+<img src="/post/20171126-12.png" alt="" /></p>
+
+<h4 id="b-樣式設計-design-office-products">b). 樣式設計 Design / office/ products</h4>
+
+<p>再回來看左側的選項，可以在&rdquo;General info&rdquo;底下的“Design”，可以為手機應用的樣式再做一些調整修改。以「Menu type」為示範，AC 僅提供：Top, Sliding, Table, Without menu 四種選擇。下方第二圖即為「滑動側欄」（Sliding）的選單呈現模樣，而第三圖則為 Table。</p>
+
+<p><img src="/post/20171126-13.png" alt="" /></p>
+
+<p><img src="/post/20171126-14.png" alt="" /></p>
+
+<p><img src="/post/20171126-15.png" alt="" /></p>
+
+<p>至於「Menu icons」則為手機上進入應用後的主畫面上方功能圖標，目前僅提供：退出、訊息通知、分享、聯絡（打電話或線上聊天傳訊）四種功能。
+<img src="/post/20171126-16.png" alt="" /></p>
+
+<p>loading image　則是在手機（或平板電腦）上打開此應用程式時，首先會看到的「歡迎」畫面
+<img src="/post/20171126-17.png" alt="" />
+介紹完基本的新建 section、圖示色彩變動後，接下來介紹 office、products 二個區塊。說穿了，office　就是辦公室地址和連絡方式，若有輸入　office　資料，則安裝用戶在手機主選單上按「聯絡功能」小圖示後，可以直接快速撥打此辦公室的電話，透過此軟體傳免費訊息給原軟體製作管理員（雙方可在 androidcreator.com 進行文字傳訊聊天）</p>
+
+<p><img src="/post/20171126-18.png" alt="" /></p>
+
+<p>網頁端
+<img src="/post/20171126-19.png" alt="" /></p>
+
+<p>手機端
+<img src="/post/20171126-20.png" alt="" /></p>
+
+<p>products　則一如其字面所表，指是商品產品，其作用是讓小電商或網拍商快速製作自己的網路商店 app。為了測試它的功能，故意放了一些東西看看。
+<img src="/post/20171126-21.png" alt="" /></p>
+
+<h4 id="c-conversation-notification">c). Conversation / notification</h4>
+
+<p>最後二個功能：Send notifications，Conversations，後者是在稍早 office 部份提過，讓安裝者可以在此應用上，利用與「辦公室」、「營業處」的聯絡資料，和原軟體製作管理員進行線上文字通訊，雙方的對話記錄即可在此找到。（同時 AC 也會發信到開發者註冊時提供的電郵信箱，通知開發者安裝用戶透過此 app 傳來了新訊息）；Send notifications　則是可以讓開發者透過它，向安裝此應用的用戶發佈通知消息。</p>
+
+<p>電腦網頁端管理發送給此應用安裝者的訊息介面
+<img src="/post/20171126-22.png" alt="" />
+<img src="/post/20171126-23.png" alt="" /></p>
+
+<p>編輯訊息內容的環境介面
+<img src="/post/20171126-24.png" alt="" /></p>
+
+<p>管理者在網頁端按送出後，用戶手機端收到通知訊息的狀況，左上出現一個新訊息小圖示（此小圖示可以更改樣式）
+<img src="/post/20171126-25.png" alt="" /></p>
+
+<p>手機上開啟此應用時，也會發現主畫面右上角的訊息圖示出現了紅色警示，表示有來自此系統開發者的訊息
+<img src="/post/20171126-26.png" alt="" /></p>
+
+<p>點開之後即可看到訊息標題與開啟訊息內容。
+<img src="/post/20171126-27.png" alt="" /></p>
+
+<p>選單倒數最後二個　ADs, Statistics 分別為廣告和 app 被下載使用等統計數據，就請自行試看，本文不再贅述。</p>
+
+<p>如同之前說明，由於 AC 為 app 作者省去了不少麻煩，一旦原作者在網站上刪除此應用，則已安裝的用戶即無法使用。這樣的「寄生」設計有好有壞，壤處是原作者勢必依賴 AC 才能讓 app 存活，但其好處是因為透過　AC 中介訪問網路上的資源，因此原作者若更新 app 內容(不變動 General info 底下的 name and icon　部份，則無需重建 app)，已安裝用戶打開此應用即可看到更新內容，不必重新安裝下載新版本。此點如果使用過 ibuildapp, appgyser 就會知道稍一改動 app 內容，就得重新 rebuild, install 有多麼麻煩，雖然後者的好處是，一但作者「完美地」製作出一個 app 就是可以在網站上把專案刪除。</p>
+
+<h3 id="把-apk-發佈到應用市集">把 apk 發佈到應用市集</h3>
+
+<p>手機應用 apk 作出來之後，若希望多一點人可以使用，最快速的方法當然就是可以把它發佈到國人比較熟知的應用市集，如 google play 與　google play。就因為製作 android 應用的門檻如我上頭所介紹的，技術含銅量非常之低，google play 也擔心其品質良疪不齊，故稍設了一點收費限制，作者必須先繳出 20 美元的註冊費，才可以向 google play 申請發佈應用。而另一個虎視行動市集的大型企業 amazon 則目前仍然維持免費代為發佈到其　app store　的服務。只要申請 <a href="https://developer.amazon.com/myapps.html">amazon developer</a> 帳號，並依其指示填寫一些資訊和提交應用截圖、桌布圖標等檔案，大約等上三四個小時，通過基本審查後，所製作的 apk 即可出現在 amazon app store。　</p>
+
+<p><img src="/post/20171126-28.png" alt="" /></p>
+
+<p><img src="/post/20171126-29.png" alt="" /></p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://blog.jxtsai.info/2017/11/26/android-apk/" data-id="7229721eaa066755cd019a56eb7431ad" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://blog.jxtsai.info/2017/11/26/android-apk/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://blog.jxtsai.info/2017/11/07/rfc8280/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">當網際網路協定遇上人權，淺介 RFC 8280</div>
+    </a>
+    
+
+    
+    <a href="https://blog.jxtsai.info/2017/12/16/t235y-cmod13/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Newer
+      </strong>
+      <div class="article-nav-title">Samsung Tab4 T235y 昇級 CyanogenMod 13</div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jx-blog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
+
+    </section>
+
+   	
+    	<aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recents
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2019/06/30/forestry-io/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/blogging">
+                        blogging
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2019/06/30/forestry-io/" class="title">forestry.io 靜態網頁內容管理系統</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-06-30 00:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2019-06-30</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2019/06/22/publii/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/blogging">
+                        blogging
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2019/06/22/publii/" class="title">Publii Static CMS 靜態網頁內容管理系統</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-06-22 22:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2019-06-22</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/12/10/xpa-report/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/12/10/xpa-report/" class="title">The Expression Agenda Report 2017/2018</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-12-10 22:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-12-10</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/" class="title">Freedom on the net</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-10-07 15:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-10-07</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/08/29/google-data-collection/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/08/29/google-data-collection/" class="title">Google Data Collection</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-08-29 15:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-08-29</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/blogging">
+                    blogging
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/human-rights">
+                    human-rights
+                </a>
+                <span class="category-list-count">24</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/internet">
+                    internet
+                </a>
+                <span class="category-list-count">44</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/others">
+                    others
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/2fa">
+                    2fa
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/accountability">
+                    accountability
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/advocacy">
+                    advocacy
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/android">
+                    android
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/article-19">
+                    article-19
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/big-data">
+                    big-data
+                </a>
+                <span class="category-list-count">13</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/business-surveillance">
+                    business-surveillance
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/cryptpad">
+                    cryptpad
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/data-protecion">
+                    data-protecion
+                </a>
+                <span class="category-list-count">6</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/data-protection">
+                    data-protection
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/digital-rights">
+                    digital-rights
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/digital-tools">
+                    digital-tools
+                </a>
+                <span class="category-list-count">13</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/documentation">
+                    documentation
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ebooks">
+                    ebooks
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/email">
+                    email
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/encryption">
+                    encryption
+                </a>
+                <span class="category-list-count">8</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/freedom-of-expression">
+                    freedom-of-expression
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/gdpr">
+                    gdpr
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/git">
+                    git
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/github">
+                    github
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/grub">
+                    grub
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/guardian-project">
+                    guardian-project
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hacker-slide">
+                    hacker-slide
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hexo">
+                    hexo
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/human-rights">
+                    human-rights
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hypothesis">
+                    hypothesis
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/javascript">
+                    javascript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/jekyll">
+                    jekyll
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/l10n">
+                    l10n
+                </a>
+                <span class="category-list-count">11</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/lineageos">
+                    lineageos
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/mighty-networks">
+                    mighty-networks
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/netlify">
+                    netlify
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ohchr">
+                    ohchr
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ooni">
+                    ooni
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/oxfam">
+                    oxfam
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/privacy">
+                    privacy
+                </a>
+                <span class="category-list-count">27</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/productivity">
+                    productivity
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/protocols">
+                    protocols
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/python">
+                    python
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/reveal.js">
+                    reveal.js
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/security">
+                    security
+                </a>
+                <span class="category-list-count">10</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/social-media">
+                    social-media
+                </a>
+                <span class="category-list-count">5</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/surveillance">
+                    surveillance
+                </a>
+                <span class="category-list-count">8</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tacitical-technology-collective">
+                    tacitical-technology-collective
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tails">
+                    tails
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/the-engine-room">
+                    the-engine-room
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/toolkit">
+                    toolkit
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tor">
+                    tor
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/twitter">
+                    twitter
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/twngo">
+                    twngo
+                </a>
+                <span class="category-list-count">14</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ubuntu">
+                    ubuntu
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/unhrc">
+                    unhrc
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/visualization">
+                    visualization
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/whistleblow">
+                    whistleblow
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/windows">
+                    windows
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/world-economy-forum">
+                    world-economy-forum
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/yubico">
+                    yubico
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/zoho">
+                    zoho
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://blog.jxtsai.info/tags/2fa" style="font-size: 12px;">2fa</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/accountability" style="font-size: 12px;">accountability</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/advocacy" style="font-size: 12px;">advocacy</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/android" style="font-size: 12px;">android</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/article-19" style="font-size: 12px;">article-19</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/big-data" style="font-size: 12px;">big-data</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/business-surveillance" style="font-size: 12px;">business-surveillance</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/cryptpad" style="font-size: 12px;">cryptpad</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/data-protecion" style="font-size: 12px;">data-protecion</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/data-protection" style="font-size: 12px;">data-protection</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/digital-rights" style="font-size: 12px;">digital-rights</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/digital-tools" style="font-size: 12px;">digital-tools</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/documentation" style="font-size: 12px;">documentation</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ebooks" style="font-size: 12px;">ebooks</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/email" style="font-size: 12px;">email</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/encryption" style="font-size: 12px;">encryption</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/freedom-of-expression" style="font-size: 12px;">freedom-of-expression</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/gdpr" style="font-size: 12px;">gdpr</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/git" style="font-size: 12px;">git</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/github" style="font-size: 12px;">github</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/grub" style="font-size: 12px;">grub</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/guardian-project" style="font-size: 12px;">guardian-project</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hacker-slide" style="font-size: 12px;">hacker-slide</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hexo" style="font-size: 12px;">hexo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hugo" style="font-size: 12px;">hugo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/human-rights" style="font-size: 12px;">human-rights</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hypothesis" style="font-size: 12px;">hypothesis</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/javascript" style="font-size: 12px;">javascript</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/jekyll" style="font-size: 12px;">jekyll</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/l10n" style="font-size: 12px;">l10n</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/lineageos" style="font-size: 12px;">lineageos</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/markdown" style="font-size: 12px;">markdown</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/mighty-networks" style="font-size: 12px;">mighty-networks</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/netlify" style="font-size: 12px;">netlify</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ohchr" style="font-size: 12px;">ohchr</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ooni" style="font-size: 12px;">ooni</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/oxfam" style="font-size: 12px;">oxfam</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/privacy" style="font-size: 12px;">privacy</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/productivity" style="font-size: 12px;">productivity</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/protocols" style="font-size: 12px;">protocols</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/python" style="font-size: 12px;">python</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/reveal.js" style="font-size: 12px;">reveal.js</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/security" style="font-size: 12px;">security</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/social-media" style="font-size: 12px;">social-media</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/surveillance" style="font-size: 12px;">surveillance</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tacitical-technology-collective" style="font-size: 12px;">tacitical-technology-collective</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tails" style="font-size: 12px;">tails</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/the-engine-room" style="font-size: 12px;">the-engine-room</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/toolkit" style="font-size: 12px;">toolkit</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tor" style="font-size: 12px;">tor</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/twitter" style="font-size: 12px;">twitter</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/twngo" style="font-size: 12px;">twngo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ubuntu" style="font-size: 12px;">ubuntu</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/unhrc" style="font-size: 12px;">unhrc</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/visualization" style="font-size: 12px;">visualization</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/whistleblow" style="font-size: 12px;">whistleblow</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/windows" style="font-size: 12px;">windows</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/world-economy-forum" style="font-size: 12px;">world-economy-forum</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/yubico" style="font-size: 12px;">yubico</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/zoho" style="font-size: 12px;">zoho</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://blog.jxtsai.info/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://blog.jxtsai.info/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Media on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/social-media/</link>
+    <description>Recent content in Social Media on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 15 Jul 2018 08:44:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>開源加密社交平台 Minds 介紹</title>
+      <link>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</link>
+      <pubDate>Sun, 15 Jul 2018 08:44:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</guid>
+      <description>&lt;p&gt;從&lt;a href=&#34;https://netpolicy.taipei.io&#34;&gt;網路政策&lt;/a&gt; slack 頻道裏得知這個最近在越南網民中暴紅的開源加密分散式社交平台 &lt;a href=&#34;https://www.minds.com/register?referrer=jxtsai&#34;&gt;minds.com&lt;/a&gt; 。雖然自己近來已不如早期愛嚐鮮亂試各種剛冒出來的網路服務，但看到朋友分享的帳號介面與評價，還是忍不住地跟風地註冊了一個帳號玩玩。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Twitter Profile Analyzer</title>
+      <link>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</link>
+      <pubDate>Sun, 05 Feb 2017 14:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</guid>
+      <description>&lt;p&gt;之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇&lt;a href=&#34;http://self.jxtsai.info/2016/09/python-twython.html&#34;&gt;python Twython 練習&lt;/a&gt;。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&amp;hellip;.。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>M&#43;R’s 2016 NPO線上指標報告</title>
+      <link>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</link>
+      <pubDate>Thu, 22 Dec 2016 08:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</guid>
+      <description>&lt;p&gt;上週介紹過NonProfit Tech for Good所發佈的「2016 Global NGO Online Technology Report」&lt;a href=&#34;https://blog.jxtsai.info/2016/12/14/global-ngo-online/&#34;&gt;2016全球NGO線上使用調查&lt;/a&gt;,這兩天又翻讀&lt;a href=&#34;http://www.mrss.com/about/&#34;&gt;M+R’s&lt;/a&gt; 進入第十年發表了年度&lt;a href=&#34;http://mrbenchmarks.com/#page/download&#34;&gt;Benchmarks Study：Online metrics for nonprofits&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2016全球NGO線上使用調查</title>
+      <link>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</link>
+      <pubDate>Wed, 14 Dec 2016 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</guid>
+      <description>&lt;p&gt;NonProfit Tech for Good發佈了&lt;a href=&#34;http://techreport.ngo/2016.html&#34;&gt;2016 Global NGO Online Technology Report&lt;/a&gt;，這份報告整理了2,780個NGOs組織回應其問卷調查，參與者橫跨六大洲133個不同國家，其中有60％的NGO自評是屬於「小而美」的組織規模(這份調查中並無用制式的員工人數或資金經費額度來評比組織大小，而是讓填寫者可自由寫出對自己組織該歸類於大中小三級中哪一類規模。)當然這其中2700多個所謂的NGO/NPO也有自各的議題關注或倡議焦點，調查中除了揭示今年全球大小NGO/NPO在網站工具與社交媒體使用狀況的統計外，這份報告也稍微分析了一下各NGO捐助者的世代屬性與捐款行為偏好。我個人長期訂閱NonProfit Tech for Good的消息，是覺得其調查結果可作為理解當前NGO/NPO總體社群狀況的參考，故稍把其內容轉貼過來。&lt;/p&gt;
+
+&lt;p&gt;今年呈現的數據狀況結果是：
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

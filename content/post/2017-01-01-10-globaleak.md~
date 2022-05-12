@@ -1,0 +1,26 @@
++++
+date = "2017-01-18 10:24:00+00:00"
+draft = false
+title ="Globaleak 吹哨揭密的安全軟體"
+slug = "10-tactics"
+categories = ["human rights"]
+tags = [
+  "accountability",
+  "whistleblow",
+  "encryption",
+  ]
+disable_profile = false
+disable_widgets = false
++++
+去年六月因為協助「globaleak」正體中文化的翻譯告一段落，曾經簡單地為文記下這個軟體的介紹：[GlobaLeaks project 中文化](http://self.jxtsai.info/2016/04/globaleaks-project.html)，不過當時的介紹寫的不明不白，原因是自己並沒有完整地試用過這套軟體，而其官網上放置的示範版，當時也無法正常試用，於是這件事似乎就這樣地結束了。直到十二月份localization lab的協調者代globaleak專案徵詢官網（簡體）中文的簡介翻譯，讓我有機會與其軟體計畫的外展專員和主要程式開發者直接接觸，重新了解該專案的最新進度，原來當時我完成的正體中文版，雖然並無人進行校稿審對，但已經被默默地放入軟體包的安裝套件當中（泣～～）。而另外一個簡體中文版的完成進度則是  ％，同時極需要有人協助完成其中文審稿校對，於是我一口答應地接下這份任務。
+
+<!--more-->
+再次碰觸globaleak軟體，這回我按著原始碼資源庫的安裝指示，在自己本地端的電腦（ubuntu 14.04環境）很順利地完成了安裝。
+``wget https://deb.globaleaks.org/install-globaleaks.sh
+``chmod +x install-globaleaks.sh
+``./install-globaleaks.sh
+
+
+
+![10 tactics remixed](/post/20170101-1.png)
+

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <title>新站啟用 &middot; Return to laughter</title>
+    <meta name="generator" content="Hugo 0.40.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="jxtsai">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="https://blog.jxtsai.info/2016/10/24/hugo-site/"/>
+    <link rel="icon" href="https://blog.jxtsai.info/favicon.ico">
+    <link rel="apple-touch-icon" href="https://blog.jxtsai.info/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/style.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/monokai.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="新站啟用" />
+<meta property="og:description" content="之前試用了幾款靜態網頁生成器，並相繼把其安裝與使用簡介記錄下來。最近才發現早有一個整理了github上面受歡迎的開源靜態網頁生成器網站，的確是蠻一目了然的實用指南。
+
+
+例如之前試過的jekyll就是其中排名第一（以得到星號、觀注度和fork次數計算）的靜態網頁生成器。從這個網站，我才知道之前曾試用的gitbook原來也是一個開源專案，除了提供網頁版的電子書線上編輯與作品發表外，另有客戶端的套件可下載安裝，讓使用者可以在自己的電腦端安裝gitbook-cli後即可以利用自己習慣愛用的純文字編輯器來寫作文本,再將之發佈到網路上。此單機版雖然理論上可以佈署在某個雲端虛擬機器上來運行，但似乎無法如gitbook網頁版支援多人協同編輯工作，不過其優點在於可以自行調校需要的版型與應用外掛功能（原來gitbook志願者開發的外掛已多達近500個！！）
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jxtsai.info/2016/10/24/hugo-site/" />
+
+
+
+<meta property="article:published_time" content="2016-10-24T11:14:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-10-24T11:14:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="新站啟用">
+<meta itemprop="description" content="之前試用了幾款靜態網頁生成器，並相繼把其安裝與使用簡介記錄下來。最近才發現早有一個整理了github上面受歡迎的開源靜態網頁生成器網站，的確是蠻一目了然的實用指南。
+
+
+例如之前試過的jekyll就是其中排名第一（以得到星號、觀注度和fork次數計算）的靜態網頁生成器。從這個網站，我才知道之前曾試用的gitbook原來也是一個開源專案，除了提供網頁版的電子書線上編輯與作品發表外，另有客戶端的套件可下載安裝，讓使用者可以在自己的電腦端安裝gitbook-cli後即可以利用自己習慣愛用的純文字編輯器來寫作文本,再將之發佈到網路上。此單機版雖然理論上可以佈署在某個雲端虛擬機器上來運行，但似乎無法如gitbook網頁版支援多人協同編輯工作，不過其優點在於可以自行調校需要的版型與應用外掛功能（原來gitbook志願者開發的外掛已多達近500個！！）
+">
+
+
+<meta itemprop="datePublished" content="2016-10-24T11:14:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-10-24T11:14:00&#43;00:00" />
+<meta itemprop="wordCount" content="0">
+
+
+
+<meta itemprop="keywords" content="hugo,git," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="新站啟用"/>
+<meta name="twitter:description" content="之前試用了幾款靜態網頁生成器，並相繼把其安裝與使用簡介記錄下來。最近才發現早有一個整理了github上面受歡迎的開源靜態網頁生成器網站，的確是蠻一目了然的實用指南。
+
+
+例如之前試過的jekyll就是其中排名第一（以得到星號、觀注度和fork次數計算）的靜態網頁生成器。從這個網站，我才知道之前曾試用的gitbook原來也是一個開源專案，除了提供網頁版的電子書線上編輯與作品發表外，另有客戶端的套件可下載安裝，讓使用者可以在自己的電腦端安裝gitbook-cli後即可以利用自己習慣愛用的純文字編輯器來寫作文本,再將之發佈到網路上。此單機版雖然理論上可以佈署在某個雲端虛擬機器上來運行，但似乎無法如gitbook網頁版支援多人協同編輯工作，不過其優點在於可以自行調校需要的版型與應用外掛功能（原來gitbook志願者開發的外掛已多達近500個！！）
+"/>
+<meta name="twitter:site" content="@a5288"/>
+
+    
+
+    
+    <style>
+        .full-width {
+            width: 100% !important;
+        }
+    </style>
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://blog.jxtsai.info/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://blog.jxtsai.info/css/images/logo.png')"></i>
+          
+          <span class="site-title">Return to laughter</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/">home</a>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="http://self.jxtsai.info">old site</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://medium.jxtsai.info">medium</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://blog.jxtsai.info/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/">home</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="http://self.jxtsai.info">old site</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://medium.jxtsai.info">medium</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="https://blog.jxtsai.info/2016/10/24/hugo-site/">
+    <h1 class="article-title" itemprop="name">
+        新站啟用
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2016-10-24 11:14:00 &#43;0000 &#43;0000" itemprop="datePublished">2016-10-24</time>
+            &middot;
+            0
+            words
+            &middot;
+            0
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/categories/blogging">blogging</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/hugo">hugo</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/git">git</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>之前試用了幾款靜態網頁生成器，並相繼把其安裝與使用簡介記錄下來。最近才發現早有一個整理了github上面受歡迎的<a href="https://www.staticgen.com/">開源靜態網頁生成器</a>網站，的確是蠻一目了然的實用指南。
+<img src="/post/20161024-1.png" alt="" /></p>
+
+<p>例如之前試過的jekyll就是其中排名第一（以得到星號、觀注度和fork次數計算）的靜態網頁生成器。從這個網站，我才知道之前曾試用的gitbook原來也是一個開源專案，除了提供網頁版的電子書線上編輯與作品發表外，另有客戶端的套件可下載安裝，讓使用者可以在自己的電腦端安裝gitbook-cli後即可以利用自己習慣愛用的純文字編輯器來寫作文本,再將之發佈到網路上。此單機版雖然理論上可以佈署在某個雲端虛擬機器上來運行，但似乎無法如gitbook網頁版支援多人協同編輯工作，不過其優點在於可以自行調校需要的版型與應用外掛功能（原來gitbook志願者開發的外掛已多達近500個！！）
+<code></code></p>
+
+<p>看到這麼多靜態網頁生成器的出現，讓我更動心地想把markdown語法練熟一點，慢慢調整自己的寫作習慣單純地回歸純文字環境而不必啟動太複雜的版面排列編輯器，也逐步減少在blogger.com　/wordpress 後台寫部落格草稿的麻煩，因為每一次存檔的post request都似乎是一趟趟本地與雲端機器之間來回回應的時間與能源耗損（是真的有這麼計較嗎？）</p>
+
+<h5 id="blogger-wordpress-xml備份文件的轉檔">blogger/ wordpress xml備份文件的轉檔</h5>
+
+<p>有些囑目度較高的靜態網頁生成器如jekyll/ hugo,已有熱心的支持者協助開發了從blogger/ wordpress等平台跳船改泊的方法。例如我個人即是參考這篇文章的作法<a href="https://samaxes.com/2016/02/static-site-from-wordpress-to-hugo/">Moving to a Static Website, part 1: From WordPress to Hugo</a>,將blogger上近700篇的文章順利自動轉成了markdown格式。因為其中還有許多圖片與連結要作修改，在今年六月部落格搬了一次家的勞心動作後，短期內不會再花時間一一地修改這些MD文件，只是把它們安心地放在個人電腦的硬碟裏存檔備份。</p>
+
+<h5 id="markdown語法的練習">markdown語法的練習</h5>
+
+<p>網路上不少markdonw語法入門皆提到，應用md語法的優點，仍在於讓寫作者單純地利用鍵盤直接記下版型指令，讓寫作者可先專心於文本內容的流𣈱書寫，先不須煩心頻繁切換到滑鼠啟動文書編輯軟體複雜的功能面版。其實我本來就不太愛用word文件編輯軟體，尤其痛恨它在不同版本與載具中就會曝露自身夾帶許多莫名奇妙的隱藏肥大編碼，更別提其隨著商業公開版本的不斷更新，新版文件無法相容相見於舊版軟體的尷尬囧境。所以這篇：指南利用純文字寫作<a href="http://www.jianshu.com/p/qqGjLN">為何作家應該用markdown保存自己的文稿</a>　真是說中了我的心情啊。</p>
+
+<p>至於學習語法最好的方式，除了先從簡單的認識入門，不妨試用者幾篇文件來編輯ＭＤ語法：
++ <a href="http://www.jianshu.com/p/2d1768785661">第一步：学习Markdown语法编辑概要</a>
++ <a href="http://wowubuntu.com/markdown/index.html#link">Markdown 语法说明</a> (简体中文版)</p>
+
+<p>雖然任何純文字編輯器都可以用來作md文件的編輯器。我個人最喜愛用的是sublime text，但其中文輸入支援不佳，故在寫中文時我多使用ubuntu內鍵的text editor。最近從這篇文章的介紹:<a href="http://www.arthurtoday.com/2015/04/6-markdown-editors-for-ubuntu-linux.html">Ubuntu 六款 Markdown 編輯器快速試用心得</a>,另外下載了<a href="http://pad.haroopress.com">haroopad</a>使用，其優點在於提供了文件預覧功能，會比單純地在text editor文字編輯器上工作方便地知識打入的語法是否正確呈現。
+<img src="/post/20161024-2.png" alt="" /></p>
+
+<p>如果要使用markdown線上編輯服務，過去我偶而會使用的是hackpad，但個人不太喜歡它被dropbox收購後，其文件閱讀被整合成dropbox paper的樣式，故近日來改採用<a href="http://hackmd.io">hackmd.io</a>的線上文件編輯，可惜它目前的線上協同合作功能暫時還比不上hackpad。</p>
+
+<h5 id="新站啟用">新站啟用</h5>
+
+<p>既然橫下心想要多採用MD寫作與保持文檔了，未來blogger也不會再作更新，畢竟同一文章卻得在不同格式之間地貼來貼去還真是蠻麻煩的，且我的部落格瀏覧量向來很低，尤其在社群社交網站當道的年代中自己並不使用臉書，如此在台灣逐漸被臉書單一化的網路應用層世界裏，一直乏人問津。不過書寫本身是一件蠻有趣的事，在數位時代中可以胡亂實驗各種平台或寫作方式，探索各種不斷開發前進的網頁技術變化，這些始終是我接觸互聯網世界以來最大樂趣之一，所以我當然還是會繼續公開地分享一些以文字為主的記錄。blogger有另一個網路大神當靠山，但blogger自定網域卻無法提供ssl支援，這點讓我心裏蠻介意不痛快的，更別提其最近又<a href="https://www.propublica.org/article/google-has-quietly-dropped-ban-on-personally-identifiable-web-tracking">默默修改用戶隱私條款</a>的作法，讓我想逐步脫離對其依賴（果然是難相處啊我）。之後<a href="http://self.jxtsai.info">blogger.com</a>上面只會保留來作舊文的存檔連結，未來網路寫作的發佈平台會轉向利用hugo作成,存放在github的空間: <a href="https://blog.jxtsai.info">https//:blog.jxtsai.info</a>。(其實比較想存放在開源的gitlab，但一直看不懂它的ci設定方法)</p>
+
+<h5 id="靜態網頁生成器的精進修練">靜態網頁生成器的精進修練</h5>
+
+<p>雖然看似有這麼多各家語言寫成的靜態網頁生成器，可以在彈指之間就架好一個可發佈的網站內容，但是若想調校出與眾不同的模版樣式，就得花時間在摸熟CSS/SASS，一整個就是人生沒有捷徑可以偷懶的感覺啊。</p>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://blog.jxtsai.info/2016/10/24/hugo-site/" data-id="f1e9cbce3a927edb01d646766a094f00" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://blog.jxtsai.info/2016/10/24/hugo-site/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+
+    
+    <a href="https://blog.jxtsai.info/2016/10/26/hexo-site/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Newer
+      </strong>
+      <div class="article-nav-title">another hexo site </div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jx-blog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
+
+    </section>
+
+   	
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://blog.jxtsai.info/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://blog.jxtsai.info/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

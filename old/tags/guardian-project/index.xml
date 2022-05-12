@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guardian Project on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/guardian-project/</link>
+    <description>Recent content in Guardian Project on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 05 May 2017 08:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/guardian-project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Courier Secure Read RSS reader</title>
+      <link>https://blog.jxtsai.info/2017/05/05/courier/</link>
+      <pubDate>Fri, 05 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/05/courier/</guid>
+      <description>&lt;p&gt;有一陣子沒有作網路自由工具的在地中文化翻譯，這週接力某網友完成一半的正體中文化翻譯，「順手」把Guardian Project 推出的安卓手機上的RSS閱讀器Courier Secure Read不到200個字串句子給完成。私以為這個專案目前看起來蠻平靜，猜想不太可能會放入正體中文包，除了純作翻譯外，或許寫一點軟體的使用介紹更有助於它在茫茫人群中被多一個人看到與使用吧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

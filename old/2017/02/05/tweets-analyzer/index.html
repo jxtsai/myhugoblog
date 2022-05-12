@@ -1,0 +1,1477 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <title>Twitter Profile Analyzer &middot; Return to laughter</title>
+    <meta name="generator" content="Hugo 0.40.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="jxtsai">
+    
+      <meta name="description" content="">
+    
+    
+    <link rel="canonical" href="https://blog.jxtsai.info/2017/02/05/tweets-analyzer/"/>
+    <link rel="icon" href="https://blog.jxtsai.info/favicon.ico">
+    <link rel="apple-touch-icon" href="https://blog.jxtsai.info/apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/style.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/css/monokai.css">
+    <link rel="stylesheet" href="https://blog.jxtsai.info/fancybox/jquery.fancybox.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+    <meta property="og:title" content="Twitter Profile Analyzer" />
+<meta property="og:description" content="之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇python Twython 練習。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&hellip;.。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.jxtsai.info/2017/02/05/tweets-analyzer/" />
+
+
+
+<meta property="article:published_time" content="2017-02-05T14:24:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-02-05T14:24:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<meta itemprop="name" content="Twitter Profile Analyzer">
+<meta itemprop="description" content="之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇python Twython 練習。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&hellip;.。">
+
+
+<meta itemprop="datePublished" content="2017-02-05T14:24:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-02-05T14:24:00&#43;00:00" />
+<meta itemprop="wordCount" content="0">
+
+
+
+<meta itemprop="keywords" content="twitter,social media,python,privacy," />
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Twitter Profile Analyzer"/>
+<meta name="twitter:description" content="之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇python Twython 練習。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&hellip;.。"/>
+<meta name="twitter:site" content="@a5288"/>
+
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+
+<div id="container">
+	<header id="header">
+  <div id="header-main" class="header-inner">
+    <div class="outer">
+      <a href="https://blog.jxtsai.info/" id="logo">
+          
+          <i class="logo" style="background-image: url('https://blog.jxtsai.info/css/images/logo.png')"></i>
+          
+          <span class="site-title">Return to laughter</span>
+      </a>
+      <nav id="main-nav">
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/">home</a>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <a class="main-nav-link" href="http://self.jxtsai.info">old site</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://medium.jxtsai.info">medium</a>
+          
+          
+          
+          <a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a>
+          
+          
+      </nav>
+        <nav id="sub-nav">
+          <div class="profile" id="profile-nav">
+            <a id="profile-anchor" href="javascript:;"><img class="avatar" src="https://blog.jxtsai.info/css/images/avatar.png"><i class="fa fa-caret-down"></i></a>
+          </div>
+        </nav>
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+              <input type="search" name="q" class="search-form-input" placeholder="Search">
+              <button type="submit" class="search-form-submit">
+              </button>
+              <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+         </form>
+        </div>
+    </div>
+  </div>
+  <div id="main-nav-mobile" class="header-sub header-inner">
+    <table class="menu outer">
+      <tbody>
+          <tr>
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/">home</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+          <td><a class="main-nav-link" href="http://self.jxtsai.info">old site</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://medium.jxtsai.info">medium</a></td>
+          
+          
+          
+          <td><a class="main-nav-link" href="https://blog.jxtsai.info/privacy">privacy</a></td>
+          
+          
+          <td>
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form">
+          <input type="search" name="q" class="search-form-input" placeholder="Search">
+          <input type="hidden" name="sitesearch" value="https://blog.jxtsai.info/" />
+          </form>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</header>
+
+   	
+   	<div class="outer">
+   	
+    	<aside id="profile">
+  <div class="inner profile-inner">
+    <div class="base-info profile-block">
+      
+      <img id="avatar" src="https://blog.jxtsai.info/css/images/avatar.png">
+      
+      <h2 id="name">jxtsai</h2>
+      <h3 id="title">nerd - queer - social parasite</h3>
+      <span id="location"><i class="fa fa-map-marker"></i>internet</span>
+      
+          <a id="follow" href="https://quitter.se/a5288">
+              Follow
+          </a>
+      
+    </div>
+    <div class="article-info profile-block">
+      <div class="article-info-block">
+        71
+        <span>Posts</span>
+      </div>
+      <div class="article-info-block">
+        
+          60
+        
+        <span>
+            Tags
+        </span>
+      </div>
+    </div>
+    <div class="profile-block social-links">
+      <table>
+        <tr>
+          
+<td><a href="//github.com/jxtsai" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></td>
+
+
+
+
+
+
+
+
+
+<td><a href="//codepen.io/jxtsai" target="_blank" title="CodePen"><i class="fa fa-codepen"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//flickr.com/photos/a5288" target="_blank" title="Flickr"><i class="fa fa-flickr"></i></a></td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td><a href="//twitter.com/a5288" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></td>
+
+
+          <td><a href="https://blog.jxtsai.info/index.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</aside>
+
+    
+
+    <section id="main">
+    
+    <article id="page-undefined" class="article article-type-page" itemscope="" itemprop="blogPost">
+    <div class="article-inner">
+        
+
+        <header class="article-header">
+    <a href="https://blog.jxtsai.info/2017/02/05/tweets-analyzer/">
+    <h1 class="article-title" itemprop="name">
+        Twitter Profile Analyzer
+    </h1>
+    </a>
+    <div class="article-meta">
+
+        
+        <div class="article-date">
+            <i class="fa fa-calendar"></i>
+            <time datetime="2017-02-05 14:24:00 &#43;0000 &#43;0000" itemprop="datePublished">2017-02-05</time>
+            &middot;
+            0
+            words
+            &middot;
+            0
+            minute read
+        </div>
+        
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-folder"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">internet</a>
+                
+                
+            </div>
+            
+        
+
+        
+            
+            
+            <div class="article-category">
+                <i class="fa fa-tags"></i>
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/twitter">twitter</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/social-media">social media</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/python">python</a>
+                &middot;
+                
+                
+                <a class="article-category-link" href="https://blog.jxtsai.info/tags/privacy">privacy</a>
+                
+                
+            </div>
+            
+        
+    </div>
+</header>
+
+        <div class="article-entry" itemprop="articleBody">
+            <p>之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇<a href="http://self.jxtsai.info/2016/09/python-twython.html">python Twython 練習</a>。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&hellip;.。</p>
+
+<p>
+例如在這本「<a href="http://crackedlabs.org/en/networksofcontrol">Network of Control</a>」(可參考我寫的介紹<a href="https://blog.jxtsai.info/2016/11/03/corporate-surveillance/">Corporate Surveillance, Digital Tracking, Big Data &amp; Privacy</a>」就透過文獻地爬梳，介紹了現代心理學研究把社會人格類型分成五大類別，這big5簡稱“OCEAN”（openness, conscientiousness, extroversion, agreeableness, neuroticism），而從你個人在社交網站上的活動分析，平均算下來只要收集了68個「按贊」的資料，就可以準確推估你的膚色種族、性傾向偏好、政黨立場、宗教信仰、藥物菸酒使用狀況個人資料等。而這些推估出來的個人樣貌圖譜（profiling），又再放到OCEAN底下，按照這五大類人格特質，投放給當事人符合其個人化偏好的廣告投放資訊、政治行動消息、約會對象推薦等等，以刺激其進行消費、社會行動或下線世界的人際交往。</p>
+
+<p>這些<a href="https://motherboard.vice.com/en_us/article/how-our-likes-helped-trump-win">大數據出神入化的使用</a>早已不是什麼新鮮事了。我只是一直很納悶：所以這樣的科技世界許諾到底要帶領人類到一個什麼樣的美麗新世界？當個別行為的可預測性早已被機器領先幾步作下了判斷，到底身為一個人的獨特性與存在價值又何在呢？又或者根本就不存在著個體的獨特性與自主這回事吧？</p>
+
+<p>雜亂地扯了一點我個人的困惑，不過眼睜睜地看著許多人拼命用facebook，line,twitter&hellip;.不亦樂乎地幫忙這些「平台」生產（豐富、優與不優、真與假）內容外，還同時順便奉上個人資料，所以故趕緊拉回原來的主題。本文要介紹用一支以python寫成的程式，可用來簡單地對公開的推特帳號進行分析。據說開發者鑑於第45任美國總統很愛在推特上放炮、碎念所以便做了這麼一支程式，其原始碼可在<a href="https://github.com/x0rz/tweets_analyzer">github下載</a>。</p>
+
+<p>0.安裝環境：電腦上需裝有python 以及其套件管理pip</p>
+
+<p>1.解壓縮檔案，內容只有5個小檔案，扣除使用說明與版權宣告外，只有2支程式。
+<img src="https://i.imgur.com/pbwv1gi.png" alt="" /></p>
+
+<p>2.啟動CLI文字指令，當然工作目錄要切到這個推特帳號分析的目錄夾下。在指令列輸入
+<code>pip install -r requirements.txt</code>
+以便利用套件管理工具來安裝此程式所需的4個資源庫。
+<img src="https://i.imgur.com/prjzbVg.png" alt="" /></p>
+
+<p><img src="https://i.imgur.com/f9gJKPw.png" alt="" /></p>
+
+<p>若要進一步確認是否完整成功安裝所要求的套件包與版本，可在命令列輸入查看
+<code>pip list</code></p>
+
+<p>3.修改secrets.py 檔案，填入自己的twitter app api 密鑰資訊。
+到<a href="https://apps.twitter.com/">https://apps.twitter.com/</a> 右上方的「Create New App」,填入簡單資訊，如應用程式名稱、簡單說明、網址等資料後，即可啟用，系統也會回覆Consumer Key (API Key)、Consumer Secret (API Secret)、Access Token等資料。把這資料正確地貼到“secrets.py”裏面相應的位置存檔即可。</p>
+
+<p>4.好了，這樣就可直接利用tweets_analyzer.py 這支程式來對推特上任何一個公開的帳號作分析了。以我想查去年8月底，自己弄的這個<a href="http://self.jxtsai.info/2016/08/ngonewstw.html">@NGONewsTW 「台灣社運團體訊息推播」帳號</a>只要在文字命令列打入：</p>
+
+<p><code>./tweets_analyzer.py -n @NGONewsTW</code></p>
+
+<p>或是</p>
+
+<p><code>python tweets_analyer.py -n @NGONewsTW</code>
+(不知為何我按操作指示光輸入<code>tweets_analyzer.py -n @NGONewsTW</code>)則會傳回「command not found」的訊息，這好像和電腦安裝python 編譯器的路徑設定有關吧ˇˍˇ）</p>
+
+<p>終端機畫面就會開始去抓 @NGONewsTW最近1000則推文，並作成簡單的分析。
+<img src="https://i.imgur.com/Twpe4a4.png" alt="" /></p>
+
+<p>這1000則推文的發佈時間分佈，大多集中在每天下午的18~19:00之間。所以推測NGO習慣約是下班前才會把當天的新聞稿或聲明貼到官網上。
+<img src="https://i.imgur.com/ubzu7kG.png" alt="" /></p>
+
+<p>若以一週為推文發佈分析的基數，則也是明顯地看到，週末訊息量大大減少，多數發佈訊息的時間會落在週間工作日過二到週四，週一與週五則是休假回來的收心與準備要過週末的放心調整期。
+<img src="https://i.imgur.com/REVc0LS.png" alt="" /></p>
+
+<p>當然，推文的元數據可做資料探堪的材料還很多，包括如果用戶有開啟地理定位資訊，就會知道發推時的經緯度位置，常轉推誰的推文，最常推薦的文章消息來源，使用的發推方式管道等等。
+<img src="https://i.imgur.com/6VA0Hhs.png" alt="" /></p>
+
+<p>而若在 screen name 後面加入以下某些參數，則會有進一步的功能：</p>
+
+<p><code>-h, --help   show this help message and exit</code></p>
+
+<p><code>-l N, --limit N limit the number of tweets to retreive (default=1000)</code></p>
+
+<p><code>-n screen_name, --name screen_name target screen_name</code></p>
+
+<p><code>-f FILTER, --filter FILTER filter by source (ex. -f android will get android tweets only)</code></p>
+
+<p><code>--no-timezone  removes the timezone auto-adjustment (default is UTC)</code></p>
+
+<p><code>--utc-offset UTC_OFFSET manually apply a timezone offset (in seconds)</code></p>
+
+<p><code>--friends  will perform quick friends analysis based on lang and timezone (rate limit = 15 requests)</code></p>
+
+<h4 id="後言">後言</h4>
+
+<p>有人自為光明正大<a href="http://www.ted.com/talks/glenn_greenwald_why_privacy_matters">無不可告人之處</a>，恨不得掏心掏肺地在網路上裸奔者,請繼續自便。</p>
+
+<p>如果你意識到在這個數位化大數據時代裏，個人資料居然已經超過自己以為所能自主掌控的範圍，而不甘心就此宿命接受的殘酷現實，除了未來得更小心更清楚地意識到自己是否該在網路上和特定/不特定對象分享交流某些訊息時，總是有個「東西」一直在旁全程記錄。也許必要時候，刪除與遺忘或許才是對自己較適當的方式。</p>
+
+<ul>
+<li><a href="https://theglassroomnyc.org/data-detox/">Data detox kit</a></li>
+<li><a href="https://www.tweetdelete.net/index.php">tweets delete service</a></li>
+</ul>
+        </div>
+        <footer class="article-footer">
+    <a data-url="https://blog.jxtsai.info/2017/02/05/tweets-analyzer/" data-id="454dda1019781ab0187bae9942f9919d" class="article-share-link">
+        <i class="fa fa-share"></i>
+        Share
+    </a>
+    
+    <a href="https://blog.jxtsai.info/2017/02/05/tweets-analyzer/#disqus_thread" class="article-comment-link">
+        Comments
+    </a>
+    
+
+    <script>
+    (function ($) {
+        
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+    </script>
+</footer>
+
+    </div>
+
+    
+<nav id="article-nav">
+    
+    <a href="https://blog.jxtsai.info/2017/01/31/globaleaks/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Older
+      </strong>
+      <div class="article-nav-title">吹哨揭密者保護與軟體工具介紹</div>
+    </a>
+    
+
+    
+    <a href="https://blog.jxtsai.info/2017/02/13/new-tactics/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">
+          Newer
+      </strong>
+      <div class="article-nav-title">人權「新」戰術</div>
+    </a>
+    
+</nav>
+
+
+</article>
+
+
+<section id="comments">
+    <div id="disqus_thread">
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jx-blog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</section>
+
+
+    </section>
+
+   	
+    	<aside id="sidebar">
+    
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Recents
+    </h3>
+    <div class="widget">
+        <ul id="recent-post">
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2019/06/30/forestry-io/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/blogging">
+                        blogging
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2019/06/30/forestry-io/" class="title">forestry.io 靜態網頁內容管理系統</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-06-30 00:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2019-06-30</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2019/06/22/publii/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/blogging">
+                        blogging
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2019/06/22/publii/" class="title">Publii Static CMS 靜態網頁內容管理系統</a></p>
+                    <p class="item-date">
+                        <time datetime="2019-06-22 22:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2019-06-22</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/12/10/xpa-report/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/12/10/xpa-report/" class="title">The Expression Agenda Report 2017/2018</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-12-10 22:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-12-10</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/" class="title">Freedom on the net</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-10-07 15:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-10-07</time>
+                    </p>
+                </div>
+            </li>
+            
+            <li>
+                <div class="item-thumbnail">
+                    <a href="https://blog.jxtsai.info/2018/08/29/google-data-collection/" class="thumbnail">
+                    
+                        <span class="thumbnail-image thumbnail-none"></span>
+                    
+                    </a>
+                </div>
+                <div class="item-inner">
+                    
+                    
+                    <p class="item-category">
+                        
+                        <a class="article-category-link" href="https://blog.jxtsai.info/categories/internet">
+                        internet
+                        </a>
+                    </p>
+                    
+                    
+                    <p class="item-title"><a href="https://blog.jxtsai.info/2018/08/29/google-data-collection/" class="title">Google Data Collection</a></p>
+                    <p class="item-date">
+                        <time datetime="2018-08-29 15:04:00 &#43;0000 &#43;0000" itemprop="datePublished">2018-08-29</time>
+                    </p>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/blogging">
+                    blogging
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/human-rights">
+                    human-rights
+                </a>
+                <span class="category-list-count">24</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/internet">
+                    internet
+                </a>
+                <span class="category-list-count">44</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/categories/others">
+                    others
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tags
+    </h3>
+    <div class="widget">
+        <ul class="category-list">
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/2fa">
+                    2fa
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/accountability">
+                    accountability
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/advocacy">
+                    advocacy
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/android">
+                    android
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/article-19">
+                    article-19
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/big-data">
+                    big-data
+                </a>
+                <span class="category-list-count">13</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/business-surveillance">
+                    business-surveillance
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/cryptpad">
+                    cryptpad
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/data-protecion">
+                    data-protecion
+                </a>
+                <span class="category-list-count">6</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/data-protection">
+                    data-protection
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/digital-rights">
+                    digital-rights
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/digital-tools">
+                    digital-tools
+                </a>
+                <span class="category-list-count">13</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/documentation">
+                    documentation
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ebooks">
+                    ebooks
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/email">
+                    email
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/encryption">
+                    encryption
+                </a>
+                <span class="category-list-count">8</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/freedom-of-expression">
+                    freedom-of-expression
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/gdpr">
+                    gdpr
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/git">
+                    git
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/github">
+                    github
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/grub">
+                    grub
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/guardian-project">
+                    guardian-project
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hacker-slide">
+                    hacker-slide
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hexo">
+                    hexo
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hugo">
+                    hugo
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/human-rights">
+                    human-rights
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/hypothesis">
+                    hypothesis
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/javascript">
+                    javascript
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/jekyll">
+                    jekyll
+                </a>
+                <span class="category-list-count">4</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/l10n">
+                    l10n
+                </a>
+                <span class="category-list-count">11</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/lineageos">
+                    lineageos
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/markdown">
+                    markdown
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/mighty-networks">
+                    mighty-networks
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/netlify">
+                    netlify
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ohchr">
+                    ohchr
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ooni">
+                    ooni
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/oxfam">
+                    oxfam
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/privacy">
+                    privacy
+                </a>
+                <span class="category-list-count">27</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/productivity">
+                    productivity
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/protocols">
+                    protocols
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/python">
+                    python
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/reveal.js">
+                    reveal.js
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/security">
+                    security
+                </a>
+                <span class="category-list-count">10</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/social-media">
+                    social-media
+                </a>
+                <span class="category-list-count">5</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/surveillance">
+                    surveillance
+                </a>
+                <span class="category-list-count">8</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tacitical-technology-collective">
+                    tacitical-technology-collective
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tails">
+                    tails
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/the-engine-room">
+                    the-engine-room
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/toolkit">
+                    toolkit
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/tor">
+                    tor
+                </a>
+                <span class="category-list-count">3</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/twitter">
+                    twitter
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/twngo">
+                    twngo
+                </a>
+                <span class="category-list-count">14</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/ubuntu">
+                    ubuntu
+                </a>
+                <span class="category-list-count">2</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/unhrc">
+                    unhrc
+                </a>
+                <span class="category-list-count">7</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/visualization">
+                    visualization
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/whistleblow">
+                    whistleblow
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/windows">
+                    windows
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/world-economy-forum">
+                    world-economy-forum
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/yubico">
+                    yubico
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+            <li class="category-list-item">
+                
+                <a class="category-list-link" href="https://blog.jxtsai.info/tags/zoho">
+                    zoho
+                </a>
+                <span class="category-list-count">1</span>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+
+<div class="widget-wrap">
+    <h3 class="widget-title">
+        Tag cloud
+    </h3>
+    <div class="widget tagcloud">
+        
+        
+        <a href="https://blog.jxtsai.info/tags/2fa" style="font-size: 12px;">2fa</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/accountability" style="font-size: 12px;">accountability</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/advocacy" style="font-size: 12px;">advocacy</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/android" style="font-size: 12px;">android</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/article-19" style="font-size: 12px;">article-19</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/big-data" style="font-size: 12px;">big-data</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/business-surveillance" style="font-size: 12px;">business-surveillance</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/cryptpad" style="font-size: 12px;">cryptpad</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/data-protecion" style="font-size: 12px;">data-protecion</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/data-protection" style="font-size: 12px;">data-protection</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/digital-rights" style="font-size: 12px;">digital-rights</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/digital-tools" style="font-size: 12px;">digital-tools</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/documentation" style="font-size: 12px;">documentation</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ebooks" style="font-size: 12px;">ebooks</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/email" style="font-size: 12px;">email</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/encryption" style="font-size: 12px;">encryption</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/freedom-of-expression" style="font-size: 12px;">freedom-of-expression</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/gdpr" style="font-size: 12px;">gdpr</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/git" style="font-size: 12px;">git</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/github" style="font-size: 12px;">github</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/grub" style="font-size: 12px;">grub</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/guardian-project" style="font-size: 12px;">guardian-project</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hacker-slide" style="font-size: 12px;">hacker-slide</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hexo" style="font-size: 12px;">hexo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hugo" style="font-size: 12px;">hugo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/human-rights" style="font-size: 12px;">human-rights</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/hypothesis" style="font-size: 12px;">hypothesis</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/javascript" style="font-size: 12px;">javascript</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/jekyll" style="font-size: 12px;">jekyll</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/l10n" style="font-size: 12px;">l10n</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/lineageos" style="font-size: 12px;">lineageos</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/markdown" style="font-size: 12px;">markdown</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/mighty-networks" style="font-size: 12px;">mighty-networks</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/netlify" style="font-size: 12px;">netlify</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ohchr" style="font-size: 12px;">ohchr</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ooni" style="font-size: 12px;">ooni</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/oxfam" style="font-size: 12px;">oxfam</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/privacy" style="font-size: 12px;">privacy</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/productivity" style="font-size: 12px;">productivity</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/protocols" style="font-size: 12px;">protocols</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/python" style="font-size: 12px;">python</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/reveal.js" style="font-size: 12px;">reveal.js</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/security" style="font-size: 12px;">security</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/social-media" style="font-size: 12px;">social-media</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/surveillance" style="font-size: 12px;">surveillance</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tacitical-technology-collective" style="font-size: 12px;">tacitical-technology-collective</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tails" style="font-size: 12px;">tails</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/the-engine-room" style="font-size: 12px;">the-engine-room</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/toolkit" style="font-size: 12px;">toolkit</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/tor" style="font-size: 12px;">tor</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/twitter" style="font-size: 12px;">twitter</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/twngo" style="font-size: 12px;">twngo</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/ubuntu" style="font-size: 12px;">ubuntu</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/unhrc" style="font-size: 12px;">unhrc</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/visualization" style="font-size: 12px;">visualization</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/whistleblow" style="font-size: 12px;">whistleblow</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/windows" style="font-size: 12px;">windows</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/world-economy-forum" style="font-size: 12px;">world-economy-forum</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/yubico" style="font-size: 12px;">yubico</a>
+        
+        
+        <a href="https://blog.jxtsai.info/tags/zoho" style="font-size: 12px;">zoho</a>
+        
+    </div>
+</div>
+
+
+
+
+
+    <div id="toTop" class="fa fa-angle-up"></div>
+</aside>
+
+    
+	</div>
+</div>
+
+<footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019
+      Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://blog.jxtsai.info/fancybox/jquery.fancybox.pack.js"></script>
+<script src="https://blog.jxtsai.info/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+
+</body>
+</html>

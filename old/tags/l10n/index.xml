@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L10n on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/l10n/</link>
+    <description>Recent content in L10n on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 15 Jul 2018 08:44:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/l10n/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>開源加密社交平台 Minds 介紹</title>
+      <link>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</link>
+      <pubDate>Sun, 15 Jul 2018 08:44:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</guid>
+      <description>&lt;p&gt;從&lt;a href=&#34;https://netpolicy.taipei.io&#34;&gt;網路政策&lt;/a&gt; slack 頻道裏得知這個最近在越南網民中暴紅的開源加密分散式社交平台 &lt;a href=&#34;https://www.minds.com/register?referrer=jxtsai&#34;&gt;minds.com&lt;/a&gt; 。雖然自己近來已不如早期愛嚐鮮亂試各種剛冒出來的網路服務，但看到朋友分享的帳號介面與評價，還是忍不住地跟風地註冊了一個帳號玩玩。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>umbrella  正體中文網站上線</title>
+      <link>https://blog.jxtsai.info/2017/10/10/umbrella/</link>
+      <pubDate>Tue, 10 Oct 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/10/10/umbrella/</guid>
+      <description>&lt;p&gt;說起來好像是 2015 年左右，透過一位國外人權團體工作者的推文分享，知道 &lt;a href=&#34;https://secfirst.org&#34;&gt;umbrella app&lt;/a&gt; 這個安裝在 Android 智慧手機的應用，當時幾度下載過來試玩，第一版的 umbrella app 像是一份「工具書」，提供了線上資訊數位安全與離線人身安全的各種提醒指引，後來陸續強化了它的資訊功能與使用者介面。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LevelUp （紙糊的）中文網站上線 :p</title>
+      <link>https://blog.jxtsai.info/2017/09/30/levelup/</link>
+      <pubDate>Sat, 30 Sep 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/09/30/levelup/</guid>
+      <description>&lt;p&gt;去年最花時間投入的二個在地化翻譯專案，到頭來回顧，都是蠻好的失敗教訓，畢竟失敗這回事佔滿了人生的十之八九。
+但還是稍心有不甘地想繼續賭氣，於是回過頭來整理去年譯成的初稿，算是把它們告一段落地終結。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路自由本地化翻譯衝</title>
+      <link>https://blog.jxtsai.info/2017/08/11/localization-sprint/</link>
+      <pubDate>Fri, 11 Aug 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/11/localization-sprint/</guid>
+      <description>&lt;p&gt;最近在推一場「&lt;a href=&#34;https://twngo.kktix.cc/events/l10nsprint&#34;&gt;網路自由本地化翻譯衝&lt;/a&gt;」，活動之前想多少為其留下一點前因後果的文字記錄，因為它可能是全台灣第一場此類型的活動。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tails 官網中文推廣翻譯計畫介紹說明</title>
+      <link>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</link>
+      <pubDate>Fri, 04 Aug 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</guid>
+      <description>&lt;p&gt;最近二個月和一位中國網友（彼此都在 Tails 的本地化郵件群組默默潛水很久，某天對方忽然出聲，果然把我引誘出洞）組成了一個推動 Tails 官網中文翻譯的工作小組。目前總體網站繁體中文初稿已完成了近 80%，但仍然需要不斷有多一支（以上）的新手加入。為了鼓勵迎接更多人可投入此項長期持續工作，稍微整理一下本計畫的翻譯工作流程與相關工具簡介，作為日後工作群組新加入者可參考的上手文件。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>搭建洋蔥網路的中繼 Tor Relay (II)</title>
+      <link>https://blog.jxtsai.info/2017/06/22/torrelay-2/</link>
+      <pubDate>Thu, 22 Jun 2017 18:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/22/torrelay-2/</guid>
+      <description>&lt;p&gt;話說一個星期前試著在自己家裏的&lt;a href=&#34;https://blog.jxtsai.info/2017/06/14/torrelay/&#34;&gt;桌機作成一個TOR Relay&lt;/a&gt;，讓它可以成為匿名洋蔥網路裏小小的一處志願節點，提供給有需要使用TOR匿名上網的用戶作為其中的一個跳板節點。這期間收到一些網友的回應，有人告訴我，TOR名氣雖大但在中國的使用情況並不理想，一方面速度慢一方面有傳聞說國家機器為指染偽裝成中繼，造成更大的問題等等。也有國外網友提醒我最好小心不要在自家裝中繼，因為很可能讓警察找上門。。。。這些回饋對於一個技術白丁，都指引著我如何了解這些陌生的「工具」，讓我可以摸索地找到一個看清問題解決問題的方向，這些幫助和提醍先放在心裏感謝。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何搭建洋蔥網路的中繼 Tor Relay (1)</title>
+      <link>https://blog.jxtsai.info/2017/06/14/torrelay/</link>
+      <pubDate>Wed, 14 Jun 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/14/torrelay/</guid>
+      <description>&lt;p&gt;TOR算是網路自由工具中的旗艦明星級軟體，一方面它問世早（一開始還是由美國海軍投入開發，就如網際網路的催生也脫不了60年代冷戰對峙，美國軍方擔心第三世戰發生所作的風險分散因應），二來它在脫離美國軍方後吸引了許多長期在開源社群與重視匿名隱私的密碼學叛客投入貢獻，累積下不少有形無形的資源。現在基本的互聯網隱私入門ABC都會提到利用TOR瀏覽器來作匿名訪問的保護建議。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CryptPad</title>
+      <link>https://blog.jxtsai.info/2017/06/08/cryptpad/</link>
+      <pubDate>Thu, 08 Jun 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/08/cryptpad/</guid>
+      <description>&lt;p&gt;hackpad 曾經一度我是在三四年前常愛使用的線上筆記本。愛用的原因是它不像google doc 那種富文本（ rich text 編輯）環境介面為了文書版型美觀而弄得功能複雜， 只要輸入文字就立即完成儲存，即便不會高明進階的 markdown 語法，但只要記得幾個簡單規則就可以輕鬆地讓自己的純文字檔案讀起來也層次分明。線上文件編輯最大的好處之一，是檔案放在雲端，因此不必擔心早期本地端工作檔案帶來帶去一番折騰麻煩。線上文件編輯最大的好處之二，則是大大方便了不同作者之間的同步協作。不過這二年來已少用hackpad，一是自己已不太常與他人協作文件，一是因學習程式編碼慣用暗背景高亮文字配色風格，反而不太愛hackpad 只有白底黑字的編輯器環境選項（變態）。
+`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OONIprobe/ M-lab 在地中文化翻釋</title>
+      <link>https://blog.jxtsai.info/2017/05/15/ooniprobe/</link>
+      <pubDate>Mon, 15 May 2017 13:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/15/ooniprobe/</guid>
+      <description>&lt;p&gt;這兩三週翻譯了二個小東西，一個是TOR 計畫底下的一支專案：&lt;a href=&#34;https://ooni.torproject.org/&#34;&gt;OONIProbe&lt;/a&gt;,它是一個偵察測量用戶所在的互聯網自治區內（AS, Autonomous System）是否存在著網路審查與流量監控的記錄工具。另一個是&lt;a href=&#34;https://www.measurementlab.net/&#34;&gt;M-Lab&lt;/a&gt;欲讓一般網路用戶安裝在其Chrome瀏覽器的延伸套件，以助其收集全球網路連線的健康狀態數據。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Courier Secure Read RSS reader</title>
+      <link>https://blog.jxtsai.info/2017/05/05/courier/</link>
+      <pubDate>Fri, 05 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/05/courier/</guid>
+      <description>&lt;p&gt;有一陣子沒有作網路自由工具的在地中文化翻譯，這週接力某網友完成一半的正體中文化翻譯，「順手」把Guardian Project 推出的安卓手機上的RSS閱讀器Courier Secure Read不到200個字串句子給完成。私以為這個專案目前看起來蠻平靜，猜想不太可能會放入正體中文包，除了純作翻譯外，或許寫一點軟體的使用介紹更有助於它在茫茫人群中被多一個人看到與使用吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>吹哨揭密者保護與軟體工具介紹</title>
+      <link>https://blog.jxtsai.info/2017/01/31/globaleaks/</link>
+      <pubDate>Tue, 31 Jan 2017 14:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/31/globaleaks/</guid>
+      <description>&lt;p&gt;本來只是想補充去年不足的簡介，只從技術面介紹吹哨揭密軟體的安裝使用，沒想到一寫不可收拾，發現得先討論一點關於吹哨者對政治問責、人權促進等前提的觀念釐清與提倡，結果寫得有點囉囉嗦嗦的雜亂，請多忍耐。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

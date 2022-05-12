@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Netlify on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/netlify/</link>
+    <description>Recent content in Netlify on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 22 Jun 2019 22:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/netlify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publii Static CMS 靜態網頁內容管理系統</title>
+      <link>https://blog.jxtsai.info/2019/06/22/publii/</link>
+      <pubDate>Sat, 22 Jun 2019 22:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2019/06/22/publii/</guid>
+      <description>&lt;p&gt;Publii ：　試用靜態網頁內容管理系統試用&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>another hexo site </title>
+      <link>https://blog.jxtsai.info/2016/10/26/hexo-site/</link>
+      <pubDate>Wed, 26 Oct 2016 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/10/26/hexo-site/</guid>
+      <description>&lt;p&gt;今天上午看MLB世界大賽系列第一場轉播，因為看得很悶，所以一邊動手作了一個新網站。其目的是想來測試使用「國人」以javascript開發的&lt;a href=&#34;https://hexo.io&#34;&gt;靜態網頁生成器hexo&lt;/a&gt;，順便動手來整理昨天沒來由地無理頭的想法：
+
+&lt;img src=&#34;https://blog.jxtsai.info/post/20161026-1.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;https://blog.jxtsai.info/post/20161026-2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

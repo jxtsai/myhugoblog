@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surveillance on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/surveillance/</link>
+    <description>Recent content in Surveillance on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 07 Oct 2018 15:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/surveillance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Freedom on the net</title>
+      <link>https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/</link>
+      <pubDate>Sun, 07 Oct 2018 15:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/</guid>
+      <description>&lt;p&gt;前幾週稍認真地看了一下  Freedom House: &lt;a href=&#34;https://freedomhouse.org/&#34;&gt;Freedom on the net report&lt;/a&gt; 自 2011 年開始推動的&lt;a href=&#34;https://freedomhouse.org/report-types/freedom-net&#34;&gt;網路自由報告 - Freedom on the net report&lt;/a&gt;研究。這份全球性的研究當中(2017年有 65 個國家)，聽說因計畫的資源經費有限，一直並未把台灣放入其中。稍簡單介紹 Freedom on the net 研究方法，是透過三大面向:阻礙接取近用網路的程度、對網路內容限制、侵害用戶權利，各自發展出5~8項的問題清單檢查表，委由某位此領域的學者或 NGO 來進行初步個別國家情況評分，再由 Freedom House 顧問團與撰寫者討論修正，期以將各國列評比標準的尺度能盡量接近一致，再進行其量性與質化的分析後確認最後的定稿。想當然耳，共用問題清單與標準化評分方式的目的仍在於進行國別之間的分數表現比較，所以除了接收查看此份研究所指揭示的分數結果，最好還能觀察研究方法上的問題擬列,其背後代表了何種價值與意識形態，故就把它的問題給翻了中文，或許留待未來有天能派上用場。平心而論，Freedom on the net report 評分標的當為某國的網路基礎設施程度、&lt;strong&gt;該國政府&lt;/strong&gt;對網路管制的態度與手段。除了國家「公權力」對於網路自由的指染、近來跨國巨型集中的私人網路企業對於網路自由與數位權利影響的關注與討論也越來越多，故可搭配&lt;a href=&#34;https://rankingdigitalrights.org/&#34;&gt;Ranking digital rights&lt;/a&gt; 等研究一併參考。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Digital Standard</title>
+      <link>https://blog.jxtsai.info/2017/05/19/digitalstandard/</link>
+      <pubDate>Fri, 19 May 2017 07:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/19/digitalstandard/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.thedigitalstandard.org/the-standard&#34;&gt;The Digital Standard&lt;/a&gt; 是由美國數個消費者運動 &lt;a href=&#34;http://consumerreports.org/&#34;&gt;Consumer Reports&lt;/a&gt;、數位人權&lt;a href=&#34;https://disconnect.me/&#34;&gt;Disconnect&lt;/a&gt;, &lt;a href=&#34;https://rankingdigitalrights.org/&#34;&gt;Ranking Digital Rights&lt;/a&gt;, The Cyber Independent Testing Lab 等發起的業界標準，希望促使軟體、網路服務與物聯網用品製造商能從：安全、隱私、治理合規、用戶所有權四大範疇來考量其産品、軟體或服務設計，肴望有一天這個 Digital Standard 能成為軟體、網路服務與物聯網用品製造商等數位經濟下各式廠商的「業界基配標準」。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OONIprobe/ M-lab 在地中文化翻釋</title>
+      <link>https://blog.jxtsai.info/2017/05/15/ooniprobe/</link>
+      <pubDate>Mon, 15 May 2017 13:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/15/ooniprobe/</guid>
+      <description>&lt;p&gt;這兩三週翻譯了二個小東西，一個是TOR 計畫底下的一支專案：&lt;a href=&#34;https://ooni.torproject.org/&#34;&gt;OONIProbe&lt;/a&gt;,它是一個偵察測量用戶所在的互聯網自治區內（AS, Autonomous System）是否存在著網路審查與流量監控的記錄工具。另一個是&lt;a href=&#34;https://www.measurementlab.net/&#34;&gt;M-Lab&lt;/a&gt;欲讓一般網路用戶安裝在其Chrome瀏覽器的延伸套件，以助其收集全球網路連線的健康狀態數據。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>寫在初次CryptoParty Kaohsiung 之後</title>
+      <link>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</link>
+      <pubDate>Thu, 02 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</guid>
+      <description>&lt;p&gt;其實這篇文章草稿早在十多天前就寫畢，但後來不知在考慮什麼莫名的因素，暫且把它按而不發。總之，這是一個純個人角度的反省，雖然在這個數位化的年代裏，不時想要逃避無孔不入的無型巨大監獄，但偶而還是得為自己人性本能的健忘與懈怠懶散,留下一點鞭策力量的記錄吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>（安全）網路使用工具清單-桌機筆電篇</title>
+      <link>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</link>
+      <pubDate>Tue, 15 Nov 2016 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</guid>
+      <description>&lt;p&gt;11月9日過後的幾天裏，我的推特圈上最充斥的是：一些美國人權組織發表募款訊息號召更多會員加入以準備對抗2017年１月之後所將面臨的長期抵抗。除此之外，不少教新聞記者、人權工作者以及內部吹哨者（whistleblower）如何加強自保以及強化通訊私密數位安全交戰手冊等，也再一次被拿出來推廣。&lt;/p&gt;
+
+&lt;p&gt;看這些消息被轉來轉去之際，我想自己過去一年多來也親身體驗了不少數位資訊安全的工具、逃離獨大壟斷集中式商業軟體或「免費」服務對個別用戶的資枓與習慣綁架與依賴，分散減少數位安全風險，而在台灣中文社群中似乎較少看到這樣的資料整理，故先野人獻曝一下地分享我較常使用的「另類」（數位安全）網路使用工具清單，本文先以個人電腦、筆電為主，稍後再整理智慧型手機：
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>互聯網：網路個人資料可視狀況總覧</title>
+      <link>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</link>
+      <pubDate>Wed, 09 Nov 2016 12:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</guid>
+      <description>&lt;p&gt;十幾天前，透過open technology fund的推文，看到美國哥倫比亞大學新聞研究學院&lt;a href=&#34;http://towcenter.org/&#34;&gt;Tow Center for Digital Journalism&lt;/a&gt;,在gitbook發佈了一個漫畫：&lt;a href=&#34;https://www.gitbook.com/book/towcenter/understand-your-internet-the-five-w-s-of-informat/details&#34;&gt;Understand Your Internet: The Five W&amp;rsquo;s of Information Online&lt;/a&gt;
+&lt;img src=&#34;https://ek8whxe.cloudimg.io/s/cdn/x/https://www.gitbook.com/content/book/towcenter/understand-your-internet-the-five-w-s-of-informat/TheInternetADataVisibilityOverview-low.jpg&#34; alt=&#34;image Five W&#39;s of Information Online&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Corporate Surveillance, Digital Tracking, Big Data &amp; Privacy</title>
+      <link>https://blog.jxtsai.info/2016/11/03/corporate-surveillance/</link>
+      <pubDate>Thu, 03 Nov 2016 12:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/03/corporate-surveillance/</guid>
+      <description>&lt;p&gt;十月中旬美國有一則堪稱「熱門」訊息（華文端傳媒也作了報導），美國民權組織&lt;a href=&#34;https://www.aclunc.org/blog/facebook-instagram-and-twitter-provided-data-access-surveillance-product-marketed-target&#34;&gt;ACLU北加州分會&lt;/a&gt;公開挑戰質疑某家提供「社交網站即時監控服務」的公司，這也讓三大社群網站facebook, twitter. instagram宣佈不再將用戶資料賣給這家Geofeedia。&lt;/p&gt;
+
+&lt;p&gt;昨天又看到英國有一家保險公司&lt;a href=&#34;http://www.bbc.com/news/business-37847647&#34;&gt;Admiral打算透過讓摩托車主是否願意提供其臉書資料&lt;/a&gt;（當然初期可能會有折扣優惠來刺激用戶同意），來讓公司從保戶在社交網站上的行為模式來決定其保費高低。雖然這樣的打算因為臉書自己跳出來「聲稱」其非常重視用戶隱私而不會同意保險公司推行。&lt;/p&gt;
+
+&lt;p&gt;這些似乎是大數據年代中，無數個人資料被私人企業收集交易、政府監控「常態」下的冰山一角。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

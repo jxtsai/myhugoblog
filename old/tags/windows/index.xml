@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/windows/</link>
+    <description>Recent content in Windows on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 28 Apr 2017 21:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>多重作業系統安裝筆記</title>
+      <link>https://blog.jxtsai.info/2017/04/28/grub/</link>
+      <pubDate>Fri, 28 Apr 2017 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/04/28/grub/</guid>
+      <description>&lt;p&gt;因為眼殘，在ubuntu系統下使用DISK圖型介面格式化隨身碟時，不小心刪錯了硬碟機，把別人使用的，存放windows 作業系統給砍掉了( ▔___▔)y-～。
+除了花了點時間重新安裝windows 作業系統外，幸好透過一些方法找回了開機選單的作業程式使用設定，省去得萬一不幸得費時全部重裝的麻煩。故簡單筆記一下，以免日後同樣悲劇發生時忘了如何處理。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

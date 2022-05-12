@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Engine Room on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/the-engine-room/</link>
+    <description>Recent content in The Engine Room on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 26 Jan 2017 09:36:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/the-engine-room/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>technology tools for NGO part II</title>
+      <link>https://blog.jxtsai.info/2017/01/26/technology-tools-in-human-rights/</link>
+      <pubDate>Thu, 26 Jan 2017 09:36:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/26/technology-tools-in-human-rights/</guid>
+      <description>&lt;p&gt;延續著上一篇文章介紹了The Engine Room 2015年作專案「&lt;a href=&#34;https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/&#34;&gt;Tool Selection Assistance&lt;/a&gt;」。接下來想再談談TER在一年多後，所發佈的「technology tools in human rights」。&lt;/p&gt;
+
+&lt;p&gt;時序上我先讀完Technology tools in human rights，這個主題照講對我而言根本是致命的吸引力，在閱讀過程中也偶有靈光乍現，但總覺得其內容有點過於零碎，不知要如何整理出它的重點。過了幾週之後，才知道TER之前有Tool Selection Assistance專案。從命題上，倒是蠻符合TER欲從人類學觀點探究非營利社會倡議社群在數位科技的採用上更具能動與自主性，故而後從TAS專案中全面性觀點的高度，大大幫助我重新理解了NGO社群中的人權組織看待科技工具/數位工具時是否該有差異於其它議題NGO的特性。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>technology tools for NGO part I</title>
+      <link>https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/</link>
+      <pubDate>Sat, 21 Jan 2017 10:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.theengineroom.org/&#34;&gt;The engine room&lt;/a&gt;是我去年才知道的組織。好像先是從訂閱&lt;a href=&#34;https://responsibledata.io&#34;&gt;reponsibledata forum&lt;/a&gt; 有趣的電子報開始，2016後半年接著讀了幾份他們發表的報告,包括人權工作者如何妥善使用各種資料（請另見：&lt;a href=&#34;http://self.jxtsai.info/2016/07/digital-data-in-human-rights.html&#34;&gt;digital data in human rights 筆記摘要&lt;/a&gt;; &lt;a href=&#34;http://self.jxtsai.info/2016/08/datnav.html&#34;&gt;DatNav - 數位資料在人權應用之建議&lt;/a&gt;），人權捍衛者的數位安全指南（&lt;a href=&#34;http://self.jxtsai.info/2016/08/level-up.html&#34;&gt;levelup project&lt;/a&gt;），這些議題與觀點都還蠻合我的味口。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

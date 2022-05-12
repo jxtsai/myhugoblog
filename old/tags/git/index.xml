@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/git/</link>
+    <description>Recent content in Git on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 30 Jun 2019 00:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>forestry.io 靜態網頁內容管理系統</title>
+      <link>https://blog.jxtsai.info/2019/06/30/forestry-io/</link>
+      <pubDate>Sun, 30 Jun 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2019/06/30/forestry-io/</guid>
+      <description>&lt;p&gt;最近寫了 &lt;a href=&#34;https://blog.jxtsai.info/2019/06/22/publii/&#34;&gt;publii&lt;/a&gt; 的桌面版離線 Static CMS 介紹，想說就乾脆折騰到底，把之前未完成的 forestry.io 使用介紹給寫完吧。
+　　&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>新站啟用</title>
+      <link>https://blog.jxtsai.info/2016/10/24/hugo-site/</link>
+      <pubDate>Mon, 24 Oct 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/10/24/hugo-site/</guid>
+      <description>&lt;p&gt;之前試用了幾款靜態網頁生成器，並相繼把其安裝與使用簡介記錄下來。最近才發現早有一個整理了github上面受歡迎的&lt;a href=&#34;https://www.staticgen.com/&#34;&gt;開源靜態網頁生成器&lt;/a&gt;網站，的確是蠻一目了然的實用指南。
+&lt;img src=&#34;https://blog.jxtsai.info/post/20161024-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;例如之前試過的jekyll就是其中排名第一（以得到星號、觀注度和fork次數計算）的靜態網頁生成器。從這個網站，我才知道之前曾試用的gitbook原來也是一個開源專案，除了提供網頁版的電子書線上編輯與作品發表外，另有客戶端的套件可下載安裝，讓使用者可以在自己的電腦端安裝gitbook-cli後即可以利用自己習慣愛用的純文字編輯器來寫作文本,再將之發佈到網路上。此單機版雖然理論上可以佈署在某個雲端虛擬機器上來運行，但似乎無法如gitbook網頁版支援多人協同編輯工作，不過其優點在於可以自行調校需要的版型與應用外掛功能（原來gitbook志願者開發的外掛已多達近500個！！）
+&lt;code&gt;&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

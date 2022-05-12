@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hypothesis on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/hypothesis/</link>
+    <description>Recent content in Hypothesis on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 12 May 2017 08:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/hypothesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hypothes.is 線上註記筆記</title>
+      <link>https://blog.jxtsai.info/2017/05/12/hypothesis/</link>
+      <pubDate>Fri, 12 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/12/hypothesis/</guid>
+      <description>&lt;p&gt;去年在作&lt;a href=&#34;https://self.jxtsai.info/2016/08/level-up.html&#34;&gt;level-up網站中文化&lt;/a&gt;時，知道了&lt;a href=&#34;hypothes.is&#34;&gt;hypothes.is&lt;/a&gt;這個玩意，level-up本身作為一個提供給資訊安全訓練者的教案教學設計指引，本來就希望其網頁資料能方便使用者（資安訓練講師）能透過各種安全又方便的回饋管道與方式，來收集各方意見改進其教材。&lt;/p&gt;
+
+&lt;p&gt;最近因為打算要作個小專案網站，再次想起了 hypothesis，剛好趁此好好了解它的使用順便寫下一點簡單的介紹教學。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

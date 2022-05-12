@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Human Rights on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/human-rights/</link>
+    <description>Recent content in Human Rights on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 17 May 2018 22:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/human-rights/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Human Rights Measurement Initiative　人權評量計畫不專業介紹</title>
+      <link>https://blog.jxtsai.info/2018/05/17/human-rights-measurement/</link>
+      <pubDate>Thu, 17 May 2018 22:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/17/human-rights-measurement/</guid>
+      <description>&lt;p&gt;去年底從網路上某個論壇群組中得知西方學界有人正在進行一項 &lt;a href=&#34;https://humanrightsmeasurement.org/&#34;&gt;Human Rights Measurement Initiative&lt;/a&gt; 研究。當時初次訪問該計畫網站時，尚無任何具體成果，只是公告研究團隊的計畫與大致的方法學，並歡迎試行計畫中選定的國家或地區的「在地人權專家」[註1］參與其問卷調查受訪。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>當網際網路協定遇上人權，淺介 RFC 8280</title>
+      <link>https://blog.jxtsai.info/2017/11/07/rfc8280/</link>
+      <pubDate>Tue, 07 Nov 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/11/07/rfc8280/</guid>
+      <description>&lt;p&gt;Request for Comment (RFC) 是研究發展網際網路硬體協定標準的主要技術社群 Internet Research Task Force (IRTF) 所發佈的文件。絕大部份的網路末端使用者或許從來沒聽過 IRTF、RFC，也不必知道他/它們是什麼。反正如今只要有一支智慧手機，付費吃到飽電信方案，一路點讚取暖爆料噓卦追劇加上電子交易，差不多滿足了「數位時代」消費者的各種線上需求。如果對網際網路的需求與認識僅止於上述活動，不關心不在意：斷線、監控、審查等課題，也無法想像數位科技為社會進展人類進化的「好壞」衝擊，建議你不必再「浪費」時間看完本文接下來的內容。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

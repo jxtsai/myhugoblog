@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ooni on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/ooni/</link>
+    <description>Recent content in Ooni on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 11 Aug 2017 10:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/ooni/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>網路自由本地化翻譯衝</title>
+      <link>https://blog.jxtsai.info/2017/08/11/localization-sprint/</link>
+      <pubDate>Fri, 11 Aug 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/11/localization-sprint/</guid>
+      <description>&lt;p&gt;最近在推一場「&lt;a href=&#34;https://twngo.kktix.cc/events/l10nsprint&#34;&gt;網路自由本地化翻譯衝&lt;/a&gt;」，活動之前想多少為其留下一點前因後果的文字記錄，因為它可能是全台灣第一場此類型的活動。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OONIprobe/ M-lab 在地中文化翻釋</title>
+      <link>https://blog.jxtsai.info/2017/05/15/ooniprobe/</link>
+      <pubDate>Mon, 15 May 2017 13:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/15/ooniprobe/</guid>
+      <description>&lt;p&gt;這兩三週翻譯了二個小東西，一個是TOR 計畫底下的一支專案：&lt;a href=&#34;https://ooni.torproject.org/&#34;&gt;OONIProbe&lt;/a&gt;,它是一個偵察測量用戶所在的互聯網自治區內（AS, Autonomous System）是否存在著網路審查與流量監控的記錄工具。另一個是&lt;a href=&#34;https://www.measurementlab.net/&#34;&gt;M-Lab&lt;/a&gt;欲讓一般網路用戶安裝在其Chrome瀏覽器的延伸套件，以助其收集全球網路連線的健康狀態數據。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

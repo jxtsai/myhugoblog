@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Twitter on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/twitter/</link>
+    <description>Recent content in Twitter on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 05 Feb 2017 14:24:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter Profile Analyzer</title>
+      <link>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</link>
+      <pubDate>Sun, 05 Feb 2017 14:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</guid>
+      <description>&lt;p&gt;之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇&lt;a href=&#34;http://self.jxtsai.info/2016/09/python-twython.html&#34;&gt;python Twython 練習&lt;/a&gt;。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&amp;hellip;.。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

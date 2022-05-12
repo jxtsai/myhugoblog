@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacker Slide on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/hacker-slide/</link>
+    <description>Recent content in Hacker Slide on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 08 Jun 2017 08:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/hacker-slide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CryptPad</title>
+      <link>https://blog.jxtsai.info/2017/06/08/cryptpad/</link>
+      <pubDate>Thu, 08 Jun 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/08/cryptpad/</guid>
+      <description>&lt;p&gt;hackpad 曾經一度我是在三四年前常愛使用的線上筆記本。愛用的原因是它不像google doc 那種富文本（ rich text 編輯）環境介面為了文書版型美觀而弄得功能複雜， 只要輸入文字就立即完成儲存，即便不會高明進階的 markdown 語法，但只要記得幾個簡單規則就可以輕鬆地讓自己的純文字檔案讀起來也層次分明。線上文件編輯最大的好處之一，是檔案放在雲端，因此不必擔心早期本地端工作檔案帶來帶去一番折騰麻煩。線上文件編輯最大的好處之二，則是大大方便了不同作者之間的同步協作。不過這二年來已少用hackpad，一是自己已不太常與他人協作文件，一是因學習程式編碼慣用暗背景高亮文字配色風格，反而不太愛hackpad 只有白底黑字的編輯器環境選項（變態）。
+`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>將MD文件轉成html線上投影片</title>
+      <link>https://blog.jxtsai.info/2016/12/19/markdown-slide/</link>
+      <pubDate>Mon, 19 Dec 2016 19:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/19/markdown-slide/</guid>
+      <description>&lt;p&gt;或許因為我是個網路移民，見證了簡報軟體的崛起，也不過是過去十多年來才從報告演說的視覺輔助工具變成了不下於講者的重要主角。但一直覺得不用弄什麼投影片但能把事情／故事、課程講清楚又動聽的人，才是真正高手。雖然我只是一個口條與表達能力平庸的普通人，卻蠻討厭作投影片簡報檔（或者說討厭「公開演說」甚致討厭說話這件事），偶而的樂趣反而是好奇地研究一下除了微軟powerpoint, apple keynote, libreoffice impression 之外的其它簡報製作法，例如之前曾玩過看起來轉來轉去很酷弦的prezi,以及改用linux作業系統後，在向量繪圖軟體inkscakp下安娤&lt;a href=&#34;http://self.jxtsai.info/2015/05/ubuntu-sozi.html&#34;&gt;sozi&lt;/a&gt;，以作出svg格式的簡報檔。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forestry on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/forestry/</link>
+    <description>Recent content in Forestry on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 24 Jun 2019 22:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/forestry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>forestry.io 靜態網頁內容管理系統</title>
+      <link>https://blog.jxtsai.info/2019/06/24/publii/</link>
+      <pubDate>Mon, 24 Jun 2019 22:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2019/06/24/publii/</guid>
+      <description>&lt;p&gt;最近寫了 publii 的桌面版離線 Static CMS 介紹，想說就乾脆折騰到底，把之前未完成的 forestry.io 使用介紹給寫完吧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

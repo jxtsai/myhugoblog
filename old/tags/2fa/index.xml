@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2fa on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/2fa/</link>
+    <description>Recent content in 2fa on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 22 Jul 2017 17:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/2fa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>yubico key ubuntu 安裝過程</title>
+      <link>https://blog.jxtsai.info/2017/07/22/yubico-key/</link>
+      <pubDate>Sat, 22 Jul 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/07/22/yubico-key/</guid>
+      <description>&lt;p&gt;本週收到了新入手的 yubico key，但透由搜尋引擎能找到的中文介紹資訊不多，就算寫的是中文，也幾乎讓人看不懂╮(－_－)╭ 。遂將自己從購入到安裝設定的過程記錄下來 。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

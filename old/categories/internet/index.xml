@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on Return to laughter</title>
+    <link>https://blog.jxtsai.info/categories/internet/</link>
+    <description>Recent content in Internet on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 10 Dec 2018 22:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/categories/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Expression Agenda Report 2017/2018</title>
+      <link>https://blog.jxtsai.info/2018/12/10/xpa-report/</link>
+      <pubDate>Mon, 10 Dec 2018 22:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/12/10/xpa-report/</guid>
+      <description>&lt;p&gt;上週三Article 19 發佈了他們最新的&amp;rdquo;&lt;a href=&#34;https://www.article19.org/xpa-18/&#34;&gt;The Expression Agenda Report &lt;sup&gt;2017&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2018&lt;/sub&gt;&amp;rdquo;&lt;/a&gt;(簡稱 XPA report)。Article 19 是國際上關注表意自由基本人權的非政府組織，其名稱取自世界人權宣言第十九條「人人有權享受主張和發表意見的自由；此項權利包括持有主張而不受干涉的自由，和通過任何媒介和不論國界尋求、接受和傳遞消息和思想的自由。」&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Freedom on the net</title>
+      <link>https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/</link>
+      <pubDate>Sun, 07 Oct 2018 15:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/10/07/freedom-on-the-net/</guid>
+      <description>&lt;p&gt;前幾週稍認真地看了一下  Freedom House: &lt;a href=&#34;https://freedomhouse.org/&#34;&gt;Freedom on the net report&lt;/a&gt; 自 2011 年開始推動的&lt;a href=&#34;https://freedomhouse.org/report-types/freedom-net&#34;&gt;網路自由報告 - Freedom on the net report&lt;/a&gt;研究。這份全球性的研究當中(2017年有 65 個國家)，聽說因計畫的資源經費有限，一直並未把台灣放入其中。稍簡單介紹 Freedom on the net 研究方法，是透過三大面向:阻礙接取近用網路的程度、對網路內容限制、侵害用戶權利，各自發展出5~8項的問題清單檢查表，委由某位此領域的學者或 NGO 來進行初步個別國家情況評分，再由 Freedom House 顧問團與撰寫者討論修正，期以將各國列評比標準的尺度能盡量接近一致，再進行其量性與質化的分析後確認最後的定稿。想當然耳，共用問題清單與標準化評分方式的目的仍在於進行國別之間的分數表現比較，所以除了接收查看此份研究所指揭示的分數結果，最好還能觀察研究方法上的問題擬列,其背後代表了何種價值與意識形態，故就把它的問題給翻了中文，或許留待未來有天能派上用場。平心而論，Freedom on the net report 評分標的當為某國的網路基礎設施程度、&lt;strong&gt;該國政府&lt;/strong&gt;對網路管制的態度與手段。除了國家「公權力」對於網路自由的指染、近來跨國巨型集中的私人網路企業對於網路自由與數位權利影響的關注與討論也越來越多，故可搭配&lt;a href=&#34;https://rankingdigitalrights.org/&#34;&gt;Ranking digital rights&lt;/a&gt; 等研究一併參考。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Data Collection</title>
+      <link>https://blog.jxtsai.info/2018/08/29/google-data-collection/</link>
+      <pubDate>Wed, 29 Aug 2018 15:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/08/29/google-data-collection/</guid>
+      <description>&lt;p&gt;1998年創立，從網路搜尋引擎起家的 Google，今天已是跨足各式數位科技産業的跨國超級大企業。近一個月來，它最為華人社會與國際人權組織所關切的事件仍是 Intercept 報導了 Google 內部員工吹哨，揭露其為了全面重回中國市場，遂配合其網路審查干預政策，私下偷偷進行了過濾敏感辭等具中國特色的搜尋引擎計畫(Dragonfly)。國際人權組織或許從企業與人權、公司創業之初的信條：不作惡&amp;hellip;.等等軸線來發揮&lt;a href=&#34;https://rsf.org/en/news/ngo-coalition-including-rsf-urges-google-reject-chinese-censorship&#34;&gt;其公開信的內容&lt;/a&gt;。不過本文想要談的，倒不是這啟看似正義與侵害壓迫對立性與「正當性」如此分明的事件，而是 Google 在過去十年廿年以來，其開發、併購、提供的各式網路服務軟體或硬體設備，如何廣泛深入又默默無聲地搜集了用戶資料。Google 搜尋引擎說，他們的宗旨是： “To organize the world&amp;rsquo;s information and make it universally accessible and useful”，而在這個數據為黑金的時代裏，數十億 Google 服務使用者的個人資料，也早已是 Google 眼中全球資訊的一部份，雖然不見得可為「外部」平等使用(universally accessible)，但這片用戶黑金卻是 Google 繼續收取網路廣告利益與鞏固其運算科技優勢的燃料。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>下世代的生産力數位工具 Coda </title>
+      <link>https://blog.jxtsai.info/2018/08/07/notion-coda/</link>
+      <pubDate>Tue, 07 Aug 2018 10:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/08/07/notion-coda/</guid>
+      <description>&lt;p&gt;記得去年在推動&lt;a href=&#34;https://to.twngo.xyz/2yYuHjE&#34;&gt;第一次 NGO 數位網路狀況調查時&lt;/a&gt;，參與者普徧回應 google drive/ MS Office 是其工作上最常使用的生產力工具，可見文書編輯軟體與試算表工具之歷久彌新，橫跨了不同部門產業，其無可取代的重要地位。既然如此，本週就來介紹推薦另一款號稱將是下世代辦公生產力工具，集文書編輯、試算表、專案管理與 app 應用於一身的神器 Coda 。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GPD Data protection for human rights defenders 小書介紹</title>
+      <link>https://blog.jxtsai.info/2018/07/25/gpd-data-protection/</link>
+      <pubDate>Wed, 25 Jul 2018 00:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/25/gpd-data-protection/</guid>
+      <description>&lt;p&gt;我個人還蠻喜歡 &lt;a href=&#34;https://www.gp-digital.org/&#34;&gt;Global Partners Digital&lt;/a&gt; 從人權角度探討言論自由與隱私、數位安全、網路治理所編寫的出版品。原因是他們整理歸納的工夫非常好，用字行文非常淺白清晰，插圖非常賞心裞目地可愛。對該主題或領域陌生的新手，往往可以透過 GPD 這一系列小書整理的資訊，找到不錯的學習起點。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>手機行動通訊的安全隱私課題</title>
+      <link>https://blog.jxtsai.info/2018/07/16/security-privacy-cellular-phone/</link>
+      <pubDate>Mon, 16 Jul 2018 18:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/16/security-privacy-cellular-phone/</guid>
+      <description>&lt;p&gt;英國隱私權倡議團體 Privacy International，最近一期的電子報主題應著時事、環繞美國總統川普到英國訪問之行，見縫插針地宣傳隱私權課題。PI 重點在於主張人民實踐集會抗議權利之際，其實隱私權的重要性也不遑多讓，例如警方利用偵察無人機/社交帳號資料探堪/ MISI catcher/ 人臉辨識等科技來監控抗議者的行動行踪。當隱私不保隨時有位老大哥在身後監控一舉一動，又如何能安心實踐其它作為一個人所享有的其它基本權利？&lt;/p&gt;
+
+&lt;p&gt;其中提到的 IMSI catchers 問題，其背後帶出了過去近廿年，當行動電話在日常生活上的使用已大幅超越了傳統電話線；當網路的0110電子位元傳送的方式從「早期」有形具體的電纜、電絞線，變成了靠空氣中看不到的無線電訊號來傳送，這又會有什麼安全與隱私上的風險呢？基於此好奇，簡單地查找了一點關於行動數據年代中，有關資訊安全與用戶通訊隱私的入門知識，希望透過這些整理，讓一般使用者能更清楚地了解行動通信與行動數據傳輸的風險威脅。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>開源加密社交平台 Minds 介紹</title>
+      <link>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</link>
+      <pubDate>Sun, 15 Jul 2018 08:44:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/15/minds-crypto-social-network/</guid>
+      <description>&lt;p&gt;從&lt;a href=&#34;https://netpolicy.taipei.io&#34;&gt;網路政策&lt;/a&gt; slack 頻道裏得知這個最近在越南網民中暴紅的開源加密分散式社交平台 &lt;a href=&#34;https://www.minds.com/register?referrer=jxtsai&#34;&gt;minds.com&lt;/a&gt; 。雖然自己近來已不如早期愛嚐鮮亂試各種剛冒出來的網路服務，但看到朋友分享的帳號介面與評價，還是忍不住地跟風地註冊了一個帳號玩玩。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路隱私、個人資料與 ISP（下）</title>
+      <link>https://blog.jxtsai.info/2018/07/04/online-privacy-and-isps-2/</link>
+      <pubDate>Wed, 04 Jul 2018 00:54:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/04/online-privacy-and-isps-2/</guid>
+      <description>&lt;p&gt;上回簡單介紹過 Swire 等人於 2016 年 2 月初次發表的報告「&lt;a href=&#34;https://www.privateinternetaccess.com/pages/privacy-from-internet-service-provider-isp&#34;&gt;Online Privacy and ISPs&lt;/a&gt;」，Swire Paper 主張鑑於現今( 2016 年左右)網路生態變化與技術發展， ISP 能夠掌握的用戶資料已比諸 20 年前大幅減低，今天對個人資料收集與隱私傷害威脅更巨者應是來自：社交媒體公司、搜尋引擎服務、網頁電郵與聊天訊息軟體、手機作業系統、瀏覽器，線上影音和電子商務等等其它網路業者。&lt;/p&gt;
+
+&lt;p&gt;然而有人則不盡同意 Swire Papers 之見解，Upturn 隨即在不到一個月的時間內（ 2016 年 3月）發表了「&lt;a href=&#34;https://www.teamupturn.org/reports/2016/what-isps-can-see/&#34;&gt;What ISPs Can See&lt;/a&gt;」，爭執 Swire Papers 主張科技進展可削弱 ISP 對消費者網路使用活動監控之樂觀立場，Upturn 盼望透由此文提出更週嚴意見的補充，有助於決策者、數位權利倡議組織、一般社會大眾能更周全地掌握科技現實的進展與應用狀況，以理性討論與建設性對話作為公共政策制定的理性基礎。&lt;/p&gt;
+
+&lt;p&gt;既然已寫過 Swire Paper，同樣為了平衡資訊比重，當然不能略過對這篇「What ISPs Can See」之介紹。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路隱私、個人資料與 ISP(上)</title>
+      <link>https://blog.jxtsai.info/2018/06/25/online-privacy-and-isps-1/</link>
+      <pubDate>Mon, 25 Jun 2018 10:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/06/25/online-privacy-and-isps-1/</guid>
+      <description>&lt;p&gt;作為一名長期的網際網路 internet 愛用者，即便曾協助作過一點點網路自由（對抗言論審查封鎖或是加密、提高使用者隱私等）工具軟體與相關資訊的中文翻譯推介，但是過去一年自己才更有意識地懷疑於到底我的哪些「個人資料」，如何在我使用網際網路時上被（哪些人）收集、處理，甚致是更進一步地在我未明確知悉與授權的狀況下，「轉售」或提供給哪些第三方來其它目的的使用。&lt;/p&gt;
+
+&lt;p&gt;為了追究上述個人的小小疑問，最近試圖著系統化地作點功課，並將這樣的資訊記錄下來。想像也許某一天，向來自認一生坦蕩蕩每天在網路上公開三餐吃什麼的過路人看到這樣的個人資訊在網路上裸奔流竄的現實後，會重新好好想想在數位時代中個人資訊曝露程度與保護段是否要再調整。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Risks of Data-Intensive Systems</title>
+      <link>https://blog.jxtsai.info/2018/05/30/data-intensive/</link>
+      <pubDate>Wed, 30 May 2018 10:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/30/data-intensive/</guid>
+      <description>&lt;p&gt;我個人常常覺得，在當前網路數位年代中，「上網」這件事已如空氣般自然存在，大部份網路使用者不須了解五層還是七層的軟硬體協議運作技術知識，就可以輕輕鬆鬆地享受網路生活的便利與好處。而這種「不必懂」，慢慢地讓變成了「不想懂」、「不願懂」的好奇心匱乏，進而害怕技術遠離技術討論，因而只能依賴所謂的專家（但可能「專家」是僅專精某一小塊領域訓練有素的「ㄍㄡˇ 」）所提供的片面資訊。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Data Brokers 資料掮客</title>
+      <link>https://blog.jxtsai.info/2018/05/20/data-brokers/</link>
+      <pubDate>Sun, 20 May 2018 10:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/20/data-brokers/</guid>
+      <description>&lt;p&gt;2018 年 3~4 月份， Facebook/ Cambridge Analytica 事件正夯之際，有人重新提起這份 2016 年由 Open Society Foundation 出資，由 UPturn 執行的研究報告&lt;a href=&#34;https://www.opensocietyfoundations.org/sites/default/files/data-brokers-in-an-open-society-20161121.pdf&#34;&gt;Data Brokers in an Open Society&lt;/a&gt;。印象中自己曾翻一下這份報告，但似乎沒在個人網誌上留下讀書筆記或心得報告？&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p lang=&#34;zh&#34; dir=&#34;ltr&#34;&gt;Data Brokers in an Open Society &lt;a href=&#34;https://t.co/9wIL0Zrfr8&#34;&gt;https://t.co/9wIL0Zrfr8&lt;/a&gt;  (當年讀  這份報告時未甶下 筆記資料,果然把內容全忘了  )&lt;/p&gt;&amp;mdash; jxtsai (@a5288) &lt;a href=&#34;https://twitter.com/a5288/status/979588588089245696?ref_src=twsrc%5Etfw&#34;&gt;March 30, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>再訪 Mighty Networks </title>
+      <link>https://blog.jxtsai.info/2018/05/10/mighty-network-revisit/</link>
+      <pubDate>Thu, 10 May 2018 22:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/10/mighty-network-revisit/</guid>
+      <description>&lt;p&gt;繼發表過&lt;a href=&#34;https://to.twngo.xyz/2KryBDp&#34;&gt;Mighty Networks 網路社群經營新選項 &lt;/a&gt;之後，接下來幾天花了點時間泡在 MN 的社群當中(MN Hosts/ MN Creators)，驗證一下它的用戶體驗、產品服務路徑規劃以及看看其它社群主人如何經營自己客層的心得交流。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mighty Networks 網路社群經營新選項</title>
+      <link>https://blog.jxtsai.info/2018/05/01/mighty-networks/</link>
+      <pubDate>Tue, 01 May 2018 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/01/mighty-networks/</guid>
+      <description>&lt;p&gt;日前接到一封來自 Mighty Networks 自稱是「Community Strategist 」的電子廣告郵件，從當下停住傻了一秒：Mighty Networks 是哪一家組織的電子報啊？幸好記憶力衰退的還不算太嚴重，三秒鐘後順利想起來在前陣刪除臉書、退出臉書的浪頭上，看到一篇「How to manipulate facebook and twitter instead of letting them manipulate you」，文中提到當年 NING (有人還記得這個服務嗎?) 的創辦人在去年(2017)又新起另一家網路服務 Mighty Networks，可以讓用戶快速地建立專為家人或朋友專屬的社交平台。喜歡嚐試網路上各式新服務的我，立馬註冊了一個帳號。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>samepage.io 免費版測試</title>
+      <link>https://blog.jxtsai.info/2018/04/29/samepage/</link>
+      <pubDate>Sun, 29 Apr 2018 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/04/29/samepage/</guid>
+      <description>&lt;p&gt;之前偶才知道，微軟有一套架構在伺服器/或使用其雲端服務建置工作管理系統 SharePoint。據說其主要功能與目地仍在於協助「組織」、「團隊」工作的協作使用，以共享重要檔案文件，追踪專案進度，又可和不同分組的成員（或外部人員）依權限篩選資訊、建置應用程式與網站，以及管理風險&amp;hellip;..。這種聽起來就像樂高積木的玩具我怎麼能夠錯過呢&amp;hellip;..，但因苦無試用版，只好退其次看看坊間是否有其它的替代服務。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Galaxy Nexus 昇級 LineageOS 13</title>
+      <link>https://blog.jxtsai.info/2017/12/18/nexus4-cmod13/</link>
+      <pubDate>Mon, 18 Dec 2017 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/12/18/nexus4-cmod13/</guid>
+      <description>&lt;p&gt;繼前一天太過輕易地成功把四年的老機子 &lt;a href=&#34;https://blog.jxtsai.info/2017/12/16/t235y-cmod13/&#34;&gt;Samsung Tab4 昇級到 Android 6.0&lt;/a&gt; 之後，心裏便按耐不住地也想替手上主要使用的 Galaxy Nexus 進行一番昇級。為了日後重覆操作或再次昇級之需，還是把這回刷機過程記錄下來。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Samsung Tab4 T235y 昇級 CyanogenMod 13</title>
+      <link>https://blog.jxtsai.info/2017/12/16/t235y-cmod13/</link>
+      <pubDate>Sat, 16 Dec 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/12/16/t235y-cmod13/</guid>
+      <description>&lt;p&gt;Samsung Tab4 7.0　是一款問市近 4 年的老機子。它本身就被三星定位為低階入門機（作為引誘消費者電信續約方案的免費贈品），故無法指望廠商會為它的昇級安全作出太多的投資，官方的系統昇級一直僅停留在 Android 4.4 版本（倒是聽聞北歐的用戶，有幸運地被昇級到 5.0 棒棒糖）。記得三年多前，剛拿到這台機子時，常為了它莫名的死當狀況為之氣結，當時拿到三星門市維修，服務員還明示說這款機型無法承受同時執行太多程式，但我明明只有開個瀏覧器之類的，放了一陣子它便自行掛機熄火=.=，還非得用強迫開機（power + home）方式才能喚醒它。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>android 手機應用製作</title>
+      <link>https://blog.jxtsai.info/2017/11/26/android-apk/</link>
+      <pubDate>Sun, 26 Nov 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/11/26/android-apk/</guid>
+      <description>&lt;p&gt;最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;MIT App Invertor&lt;/li&gt;
+&lt;li&gt;Cordova&lt;/li&gt;
+&lt;li&gt;網路上「免費」快速的手機應用軟體打造網站，如 &lt;a href=&#34;https://ibuildapp.com&#34;&gt;ibuildapp&lt;/a&gt;, &lt;a href=&#34;https://appsgeyser.com&#34;&gt;appsgeyser&lt;/a&gt;, &lt;a href=&#34;https://www.androidcreator.com&#34;&gt;androidcreator&lt;/a&gt; 等等。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>當網際網路協定遇上人權，淺介 RFC 8280</title>
+      <link>https://blog.jxtsai.info/2017/11/07/rfc8280/</link>
+      <pubDate>Tue, 07 Nov 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/11/07/rfc8280/</guid>
+      <description>&lt;p&gt;Request for Comment (RFC) 是研究發展網際網路硬體協定標準的主要技術社群 Internet Research Task Force (IRTF) 所發佈的文件。絕大部份的網路末端使用者或許從來沒聽過 IRTF、RFC，也不必知道他/它們是什麼。反正如今只要有一支智慧手機，付費吃到飽電信方案，一路點讚取暖爆料噓卦追劇加上電子交易，差不多滿足了「數位時代」消費者的各種線上需求。如果對網際網路的需求與認識僅止於上述活動，不關心不在意：斷線、監控、審查等課題，也無法想像數位科技為社會進展人類進化的「好壞」衝擊，建議你不必再「浪費」時間看完本文接下來的內容。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>umbrella  正體中文網站上線</title>
+      <link>https://blog.jxtsai.info/2017/10/10/umbrella/</link>
+      <pubDate>Tue, 10 Oct 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/10/10/umbrella/</guid>
+      <description>&lt;p&gt;說起來好像是 2015 年左右，透過一位國外人權團體工作者的推文分享，知道 &lt;a href=&#34;https://secfirst.org&#34;&gt;umbrella app&lt;/a&gt; 這個安裝在 Android 智慧手機的應用，當時幾度下載過來試玩，第一版的 umbrella app 像是一份「工具書」，提供了線上資訊數位安全與離線人身安全的各種提醒指引，後來陸續強化了它的資訊功能與使用者介面。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LevelUp （紙糊的）中文網站上線 :p</title>
+      <link>https://blog.jxtsai.info/2017/09/30/levelup/</link>
+      <pubDate>Sat, 30 Sep 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/09/30/levelup/</guid>
+      <description>&lt;p&gt;去年最花時間投入的二個在地化翻譯專案，到頭來回顧，都是蠻好的失敗教訓，畢竟失敗這回事佔滿了人生的十之八九。
+但還是稍心有不甘地想繼續賭氣，於是回過頭來整理去年譯成的初稿，算是把它們告一段落地終結。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路自由本地化翻譯衝</title>
+      <link>https://blog.jxtsai.info/2017/08/11/localization-sprint/</link>
+      <pubDate>Fri, 11 Aug 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/11/localization-sprint/</guid>
+      <description>&lt;p&gt;最近在推一場「&lt;a href=&#34;https://twngo.kktix.cc/events/l10nsprint&#34;&gt;網路自由本地化翻譯衝&lt;/a&gt;」，活動之前想多少為其留下一點前因後果的文字記錄，因為它可能是全台灣第一場此類型的活動。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tails 官網中文推廣翻譯計畫介紹說明</title>
+      <link>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</link>
+      <pubDate>Fri, 04 Aug 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</guid>
+      <description>&lt;p&gt;最近二個月和一位中國網友（彼此都在 Tails 的本地化郵件群組默默潛水很久，某天對方忽然出聲，果然把我引誘出洞）組成了一個推動 Tails 官網中文翻譯的工作小組。目前總體網站繁體中文初稿已完成了近 80%，但仍然需要不斷有多一支（以上）的新手加入。為了鼓勵迎接更多人可投入此項長期持續工作，稍微整理一下本計畫的翻譯工作流程與相關工具簡介，作為日後工作群組新加入者可參考的上手文件。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>yubico key ubuntu 安裝過程</title>
+      <link>https://blog.jxtsai.info/2017/07/22/yubico-key/</link>
+      <pubDate>Sat, 22 Jul 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/07/22/yubico-key/</guid>
+      <description>&lt;p&gt;本週收到了新入手的 yubico key，但透由搜尋引擎能找到的中文介紹資訊不多，就算寫的是中文，也幾乎讓人看不懂╮(－_－)╭ 。遂將自己從購入到安裝設定的過程記錄下來 。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>搭建洋蔥網路的中繼 Tor Relay (II)</title>
+      <link>https://blog.jxtsai.info/2017/06/22/torrelay-2/</link>
+      <pubDate>Thu, 22 Jun 2017 18:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/22/torrelay-2/</guid>
+      <description>&lt;p&gt;話說一個星期前試著在自己家裏的&lt;a href=&#34;https://blog.jxtsai.info/2017/06/14/torrelay/&#34;&gt;桌機作成一個TOR Relay&lt;/a&gt;，讓它可以成為匿名洋蔥網路裏小小的一處志願節點，提供給有需要使用TOR匿名上網的用戶作為其中的一個跳板節點。這期間收到一些網友的回應，有人告訴我，TOR名氣雖大但在中國的使用情況並不理想，一方面速度慢一方面有傳聞說國家機器為指染偽裝成中繼，造成更大的問題等等。也有國外網友提醒我最好小心不要在自家裝中繼，因為很可能讓警察找上門。。。。這些回饋對於一個技術白丁，都指引著我如何了解這些陌生的「工具」，讓我可以摸索地找到一個看清問題解決問題的方向，這些幫助和提醍先放在心裏感謝。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何搭建洋蔥網路的中繼 Tor Relay (1)</title>
+      <link>https://blog.jxtsai.info/2017/06/14/torrelay/</link>
+      <pubDate>Wed, 14 Jun 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/14/torrelay/</guid>
+      <description>&lt;p&gt;TOR算是網路自由工具中的旗艦明星級軟體，一方面它問世早（一開始還是由美國海軍投入開發，就如網際網路的催生也脫不了60年代冷戰對峙，美國軍方擔心第三世戰發生所作的風險分散因應），二來它在脫離美國軍方後吸引了許多長期在開源社群與重視匿名隱私的密碼學叛客投入貢獻，累積下不少有形無形的資源。現在基本的互聯網隱私入門ABC都會提到利用TOR瀏覽器來作匿名訪問的保護建議。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CryptPad</title>
+      <link>https://blog.jxtsai.info/2017/06/08/cryptpad/</link>
+      <pubDate>Thu, 08 Jun 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/08/cryptpad/</guid>
+      <description>&lt;p&gt;hackpad 曾經一度我是在三四年前常愛使用的線上筆記本。愛用的原因是它不像google doc 那種富文本（ rich text 編輯）環境介面為了文書版型美觀而弄得功能複雜， 只要輸入文字就立即完成儲存，即便不會高明進階的 markdown 語法，但只要記得幾個簡單規則就可以輕鬆地讓自己的純文字檔案讀起來也層次分明。線上文件編輯最大的好處之一，是檔案放在雲端，因此不必擔心早期本地端工作檔案帶來帶去一番折騰麻煩。線上文件編輯最大的好處之二，則是大大方便了不同作者之間的同步協作。不過這二年來已少用hackpad，一是自己已不太常與他人協作文件，一是因學習程式編碼慣用暗背景高亮文字配色風格，反而不太愛hackpad 只有白底黑字的編輯器環境選項（變態）。
+`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Digital Standard</title>
+      <link>https://blog.jxtsai.info/2017/05/19/digitalstandard/</link>
+      <pubDate>Fri, 19 May 2017 07:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/19/digitalstandard/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.thedigitalstandard.org/the-standard&#34;&gt;The Digital Standard&lt;/a&gt; 是由美國數個消費者運動 &lt;a href=&#34;http://consumerreports.org/&#34;&gt;Consumer Reports&lt;/a&gt;、數位人權&lt;a href=&#34;https://disconnect.me/&#34;&gt;Disconnect&lt;/a&gt;, &lt;a href=&#34;https://rankingdigitalrights.org/&#34;&gt;Ranking Digital Rights&lt;/a&gt;, The Cyber Independent Testing Lab 等發起的業界標準，希望促使軟體、網路服務與物聯網用品製造商能從：安全、隱私、治理合規、用戶所有權四大範疇來考量其産品、軟體或服務設計，肴望有一天這個 Digital Standard 能成為軟體、網路服務與物聯網用品製造商等數位經濟下各式廠商的「業界基配標準」。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OONIprobe/ M-lab 在地中文化翻釋</title>
+      <link>https://blog.jxtsai.info/2017/05/15/ooniprobe/</link>
+      <pubDate>Mon, 15 May 2017 13:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/15/ooniprobe/</guid>
+      <description>&lt;p&gt;這兩三週翻譯了二個小東西，一個是TOR 計畫底下的一支專案：&lt;a href=&#34;https://ooni.torproject.org/&#34;&gt;OONIProbe&lt;/a&gt;,它是一個偵察測量用戶所在的互聯網自治區內（AS, Autonomous System）是否存在著網路審查與流量監控的記錄工具。另一個是&lt;a href=&#34;https://www.measurementlab.net/&#34;&gt;M-Lab&lt;/a&gt;欲讓一般網路用戶安裝在其Chrome瀏覽器的延伸套件，以助其收集全球網路連線的健康狀態數據。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hypothes.is 線上註記筆記</title>
+      <link>https://blog.jxtsai.info/2017/05/12/hypothesis/</link>
+      <pubDate>Fri, 12 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/12/hypothesis/</guid>
+      <description>&lt;p&gt;去年在作&lt;a href=&#34;https://self.jxtsai.info/2016/08/level-up.html&#34;&gt;level-up網站中文化&lt;/a&gt;時，知道了&lt;a href=&#34;hypothes.is&#34;&gt;hypothes.is&lt;/a&gt;這個玩意，level-up本身作為一個提供給資訊安全訓練者的教案教學設計指引，本來就希望其網頁資料能方便使用者（資安訓練講師）能透過各種安全又方便的回饋管道與方式，來收集各方意見改進其教材。&lt;/p&gt;
+
+&lt;p&gt;最近因為打算要作個小專案網站，再次想起了 hypothesis，剛好趁此好好了解它的使用順便寫下一點簡單的介紹教學。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Courier Secure Read RSS reader</title>
+      <link>https://blog.jxtsai.info/2017/05/05/courier/</link>
+      <pubDate>Fri, 05 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/05/courier/</guid>
+      <description>&lt;p&gt;有一陣子沒有作網路自由工具的在地中文化翻譯，這週接力某網友完成一半的正體中文化翻譯，「順手」把Guardian Project 推出的安卓手機上的RSS閱讀器Courier Secure Read不到200個字串句子給完成。私以為這個專案目前看起來蠻平靜，猜想不太可能會放入正體中文包，除了純作翻譯外，或許寫一點軟體的使用介紹更有助於它在茫茫人群中被多一個人看到與使用吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WEF: 2016 Internet Fragmentation</title>
+      <link>https://blog.jxtsai.info/2017/04/13/internet-fragmentation/</link>
+      <pubDate>Thu, 13 Apr 2017 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/04/13/internet-fragmentation/</guid>
+      <description>&lt;p&gt;有人號召了一場讀書分享會：「&lt;a href=&#34;http://okfntw.kktix.cc/events/wef-ig-khh&#34;&gt;Taipei.IO | 世界經濟論壇之聊網路，談治理&lt;/a&gt;」，稍微認真地讀了一下其中指定的讀本
+&lt;a href=&#34;https://www.weforum.org/reports/internet-fragmentation-an-overview&#34;&gt;Internet Fragmentation: An Overview&lt;/a&gt;。以下只是自己簡單又偷懶的一點心得筆記。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>協作平台服務 Glip 介紹</title>
+      <link>https://blog.jxtsai.info/2017/03/24/glip/</link>
+      <pubDate>Fri, 24 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/24/glip/</guid>
+      <description>&lt;p&gt;不確定是否有人仔細寫過Glip的中文介紹，但至少目前google搜尋找不到一篇說明清楚的中文介紹， 自己在經過一番簡單的使用與測試後頗為驚豔它各種貼心的設計，遂把自己的體驗與心得寫下此文作為新手入門的介紹。另外，我個人覺得digital物資資源與知識能力有限的NGO，在挑選工作公務上的溝時工具時，最好能開始思考如何減少完全依賴facebook, line此種私人社交朋友圈使用的網路通訊工具平台，以免過份混雜了公私之間的界限。若NGO組織工作者有心考慮採用這兩三年來各種雨後春筍的團隊溝通平台或軟體，中文圈較少人知悉、使用Glip，則希望透過本文的介紹，讓NGO將其列入的考慮選項。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>寫在初次CryptoParty Kaohsiung 之後</title>
+      <link>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</link>
+      <pubDate>Thu, 02 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</guid>
+      <description>&lt;p&gt;其實這篇文章草稿早在十多天前就寫畢，但後來不知在考慮什麼莫名的因素，暫且把它按而不發。總之，這是一個純個人角度的反省，雖然在這個數位化的年代裏，不時想要逃避無孔不入的無型巨大監獄，但偶而還是得為自己人性本能的健忘與懈怠懶散,留下一點鞭策力量的記錄吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Twitter Profile Analyzer</title>
+      <link>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</link>
+      <pubDate>Sun, 05 Feb 2017 14:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/02/05/tweets-analyzer/</guid>
+      <description>&lt;p&gt;之前自己曾照著網路上的教學指南，摸索練習python豐富資源以進行一些簡單的資料抓取分析，例如這篇&lt;a href=&#34;http://self.jxtsai.info/2016/09/python-twython.html&#34;&gt;python Twython 練習&lt;/a&gt;。因為這一些一點一滴的過程，我才益發真切地感受到，我們每天在（社交）網路上公開的狀態、分享的資訊，除了當事人自以為資訊內容本身欲公開所代表的某種「宣誓、表態、表演」的動作外，這許許多多單一動作本身的發動時間、地點、互動對象、採用工具等等的元數據滙集起來（metadata或稱後設資料，或稱詮釋資料，簡言之，就是活動記錄資料），其實完全不難以拼湊發文者本人的具體個性形貌、政治立場、性傾向&amp;hellip;.。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>M&#43;R’s 2016 NPO線上指標報告</title>
+      <link>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</link>
+      <pubDate>Thu, 22 Dec 2016 08:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</guid>
+      <description>&lt;p&gt;上週介紹過NonProfit Tech for Good所發佈的「2016 Global NGO Online Technology Report」&lt;a href=&#34;https://blog.jxtsai.info/2016/12/14/global-ngo-online/&#34;&gt;2016全球NGO線上使用調查&lt;/a&gt;,這兩天又翻讀&lt;a href=&#34;http://www.mrss.com/about/&#34;&gt;M+R’s&lt;/a&gt; 進入第十年發表了年度&lt;a href=&#34;http://mrbenchmarks.com/#page/download&#34;&gt;Benchmarks Study：Online metrics for nonprofits&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>將MD文件轉成html線上投影片</title>
+      <link>https://blog.jxtsai.info/2016/12/19/markdown-slide/</link>
+      <pubDate>Mon, 19 Dec 2016 19:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/19/markdown-slide/</guid>
+      <description>&lt;p&gt;或許因為我是個網路移民，見證了簡報軟體的崛起，也不過是過去十多年來才從報告演說的視覺輔助工具變成了不下於講者的重要主角。但一直覺得不用弄什麼投影片但能把事情／故事、課程講清楚又動聽的人，才是真正高手。雖然我只是一個口條與表達能力平庸的普通人，卻蠻討厭作投影片簡報檔（或者說討厭「公開演說」甚致討厭說話這件事），偶而的樂趣反而是好奇地研究一下除了微軟powerpoint, apple keynote, libreoffice impression 之外的其它簡報製作法，例如之前曾玩過看起來轉來轉去很酷弦的prezi,以及改用linux作業系統後，在向量繪圖軟體inkscakp下安娤&lt;a href=&#34;http://self.jxtsai.info/2015/05/ubuntu-sozi.html&#34;&gt;sozi&lt;/a&gt;，以作出svg格式的簡報檔。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2016全球NGO線上使用調查</title>
+      <link>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</link>
+      <pubDate>Wed, 14 Dec 2016 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</guid>
+      <description>&lt;p&gt;NonProfit Tech for Good發佈了&lt;a href=&#34;http://techreport.ngo/2016.html&#34;&gt;2016 Global NGO Online Technology Report&lt;/a&gt;，這份報告整理了2,780個NGOs組織回應其問卷調查，參與者橫跨六大洲133個不同國家，其中有60％的NGO自評是屬於「小而美」的組織規模(這份調查中並無用制式的員工人數或資金經費額度來評比組織大小，而是讓填寫者可自由寫出對自己組織該歸類於大中小三級中哪一類規模。)當然這其中2700多個所謂的NGO/NPO也有自各的議題關注或倡議焦點，調查中除了揭示今年全球大小NGO/NPO在網站工具與社交媒體使用狀況的統計外，這份報告也稍微分析了一下各NGO捐助者的世代屬性與捐款行為偏好。我個人長期訂閱NonProfit Tech for Good的消息，是覺得其調查結果可作為理解當前NGO/NPO總體社群狀況的參考，故稍把其內容轉貼過來。&lt;/p&gt;
+
+&lt;p&gt;今年呈現的數據狀況結果是：
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小組織可免費使用的工作型郵件</title>
+      <link>https://blog.jxtsai.info/2016/11/29/email-for-work/</link>
+      <pubDate>Tue, 29 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/29/email-for-work/</guid>
+      <description>&lt;p&gt;繼twngo.xyz啟用後，寫了第一篇談NGO為何需要申請一個專屬代表單位的網域名：&lt;a href=&#34;https://medium.twngo.xyz/ngos-domain-name-%E7%B6%B2%E5%9F%9F%E8%A8%BB%E5%86%8A-f9b5425f65d6#.g8869esvs&#34;&gt;NGO’s Domain Name 網域註冊&lt;/a&gt;，接下來第二篇介紹的是，如何透過這組網域名來設定&lt;a href=&#34;https://medium.twngo.xyz/ngo-%E5%B7%A5%E4%BD%9C%E7%94%A8-%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E8%A8%AD%E5%AE%9A-91a29225f3f6#.wvhfbedq4&#34;&gt;組織或單位的工作用電子郵件&lt;/a&gt;。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NGO 申請網域名之必要</title>
+      <link>https://blog.jxtsai.info/2016/11/23/ngo-domain-name/</link>
+      <pubDate>Wed, 23 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/23/ngo-domain-name/</guid>
+      <description>&lt;p&gt;先寫了一篇NGO在數位網路年代最好要有一個專屬代表單位的網域名介紹文章：&lt;a href=&#34;https://medium.twngo.xyz/ngos-domain-name-%E7%B6%B2%E5%9F%9F%E8%A8%BB%E5%86%8A-f9b5425f65d6#.g8869esvs&#34;&gt;NGO’s Domain Name 網域註冊&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來打算陸續寫：子網域設定轉址教學、電子報發送、social media 使用政策、另類辦公室生產力工具、專案管理軟體、NPO free webinar
+等內容，希望先能夠固定一週至少有一篇文章發表～～&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>twngo.xyz 上線</title>
+      <link>https://blog.jxtsai.info/2016/11/21/twngo-xyz/</link>
+      <pubDate>Mon, 21 Nov 2016 19:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/21/twngo-xyz/</guid>
+      <description>&lt;p&gt;其實一開始只是被&lt;a href=&#34;https://gandi.net&#34;&gt;gandi.net&lt;/a&gt;正在特價促銷某些頂級網域名稱所打動，想隨便買個便宜的TLD來玩個一年看看。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>（安全）網路使用工具清單-桌機筆電篇</title>
+      <link>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</link>
+      <pubDate>Tue, 15 Nov 2016 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</guid>
+      <description>&lt;p&gt;11月9日過後的幾天裏，我的推特圈上最充斥的是：一些美國人權組織發表募款訊息號召更多會員加入以準備對抗2017年１月之後所將面臨的長期抵抗。除此之外，不少教新聞記者、人權工作者以及內部吹哨者（whistleblower）如何加強自保以及強化通訊私密數位安全交戰手冊等，也再一次被拿出來推廣。&lt;/p&gt;
+
+&lt;p&gt;看這些消息被轉來轉去之際，我想自己過去一年多來也親身體驗了不少數位資訊安全的工具、逃離獨大壟斷集中式商業軟體或「免費」服務對個別用戶的資枓與習慣綁架與依賴，分散減少數位安全風險，而在台灣中文社群中似乎較少看到這樣的資料整理，故先野人獻曝一下地分享我較常使用的「另類」（數位安全）網路使用工具清單，本文先以個人電腦、筆電為主，稍後再整理智慧型手機：
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>互聯網：網路個人資料可視狀況總覧</title>
+      <link>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</link>
+      <pubDate>Wed, 09 Nov 2016 12:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</guid>
+      <description>&lt;p&gt;十幾天前，透過open technology fund的推文，看到美國哥倫比亞大學新聞研究學院&lt;a href=&#34;http://towcenter.org/&#34;&gt;Tow Center for Digital Journalism&lt;/a&gt;,在gitbook發佈了一個漫畫：&lt;a href=&#34;https://www.gitbook.com/book/towcenter/understand-your-internet-the-five-w-s-of-informat/details&#34;&gt;Understand Your Internet: The Five W&amp;rsquo;s of Information Online&lt;/a&gt;
+&lt;img src=&#34;https://ek8whxe.cloudimg.io/s/cdn/x/https://www.gitbook.com/content/book/towcenter/understand-your-internet-the-five-w-s-of-informat/TheInternetADataVisibilityOverview-low.jpg&#34; alt=&#34;image Five W&#39;s of Information Online&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>檔案或目錄加密軟體</title>
+      <link>https://blog.jxtsai.info/2016/10/28/file-encrypt/</link>
+      <pubDate>Fri, 28 Oct 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/10/28/file-encrypt/</guid>
+      <description>&lt;p&gt;雲端硬碟空間的服務，讓工作或常用資料備份在遠端伺服器，一但本地端電腦出了狀況，最主要擔心檔案如何先取出的問題便不再擾人，可以隨時地再次進行重整化或重新安裝作業系統，或是根本換一台電腦的應對處置。
+不過隨著個人慢慢地了解一點資訊安全的皮毛以及落實個人資訊自主權與隱私的龜毛之後，益發覺得儲放於雲端的資料&lt;strong&gt;有些&lt;/strong&gt;需要先進行加密再上傳存放（有些極重要的安全資料，如GPG私鑰，我是不會把它上傳到網路而是另外存在SD數位安全卡。不過話說，從來也沒人傳加密郵件給我就是了:p）。因此先試用了二款「開源」的加密軟體&amp;mdash;cryptomator &amp;amp; CryFS，本文為簡單的使用介紹。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+﻿+++
+date = "2017-05-12 08:14:00+00:00"
+draft = false
+title = "如何設定可辨識的自家網域短名稱BSD"
+slug = "BSD"
+categories = ["internet"]
+tags = [
+  "twngo",
+  "security",
+  "digital-tools"
+  ]
+disable_profile = false
+disable_widgets = false
++++
+之前就一直強調，NGO/NPO**絕對、一定、必須**要至少有一個作為讓他人可辨識其網路身份名片的[自家網域名](https://to.twngo.xyz/2phcNP9)，這也是NGO/NPO後續建立工作用郵件、建立自家官網的第一步。除了這些專屬網域名基本常用電郵、官網功能外，今天要教學介紹的，就是如何設定免費自家網域短名稱(Branded Short Domain)，讓NGO/NPO網域名的品牌效果、能見度與實用性更進一步。
+<!--more-->
+
+短網域名服務是許多人常會使用到的服務，其優點不只是縮網址，讓短網址好記、簡潔，而且許多提供縮短網址的服務，還會幫忙用戶記錄産生的短網址其點擊量如何，以了解某些分享資訊受關注、轉換率(conversion)或CTR　(Click Throught Rate)的量化數字。
+
+bitly.com 提供免費的自家網域短名稱 Branded Short Domain，但先決條件就是NGO/NPO有一個自己專屬的網域名。但除了本身已有自己專屬的網域名，還必須確認這個DNS Zone設定是自己內部可以直接控制使用的（似乎不少台灣NGO就算有註冊了自家網域名，但內部工作者卻還是不知相關的設定與操作，因為多把這件事一併外包給了處理網站代管架設的業者。這種情況也反應了大多數NGO/NPO嚴重欠缺對於基礎網路數位操作與知識的使用自信與能力吧？）。
+
+1. 假設前面講的條件東風已備，則可以開始來啟動 bitly.com 上享有自定網域短名稱的免費服務。當然得先註冊一個bitly使用會員帳戶，且這個註冊時登記的電子郵件還得經過認證手續。不過說穿了，認證手續也只是在bitly.com系統發出的認證電郵上點擊啟動認證的指定網址，這番手續想來一般網民都很熟悉吧。
+
+![](https://i.imgur.com/fCmKMXQ.png)
+
+2.　當email 完成認證後，則登入bitly 後台右上角的帳戶設定選項上，就會自動出現進階設定(Advacned Setting)的選項。其中的「Domain Settings」底下的則會請用戶要先回到自家網域名註冊商或網站代管去設定A recorder 或是CNAME 的資料。
+
+3.　如果決定設定A recorder，這指的是要將自家網域指向bitly.com  服務器的IP位置。從它的說明文來看，還要求用戶要刪除原本存在的A 記錄。因為我目前使用的twngo.xyz網址的Ａ記錄還有其它用途，所以放棄此方案，改採用CNAME別名方式作處理。換言之，我無法讓自家網域短名稱長成： twngo.xyz/4dr342 ，只先取一個代名to(name)然後把這個子網域的代名指向 cname.bitly.com(value) 的域名。所以自家網域短名就變成: to.twngo.xyz/4dr342　
+平時如果網址列輸入　to.twngo.xyz　則會被看到這樣的頁面。當然也可以利用bitly.com 在同處設定區的代轉功能(Redirect URL)，把這個CNAME網址轉到任何一個指定的地址。　
+![](https://i.imgur.com/G6UVtvC.png)
+4.　一般域名DNS註冊商設定生效的時間短則十多分鐘長則兩三小時，大概過一點時間後，在前述步驟２的　bitly.com 帳戶管理的進階設定區，來認證新域名設定已生效。當自定的域名完成認證後，請點原本預設的Default domain: bit.ly 改為新出現的自家網域短名稱，這樣就大功告成了。
+![](https://i.imgur.com/68x44jI.png)
+5.　之後以帳戶登入bitly.com  從長網域要縮成短網址，而且還是自家網域短名稱，只要照常點擊其「create bitlink」，所生成短網址的前綴都是自家網域代名。
+![](https://i.imgur.com/jENR1kL.png)
+![](https://i.imgur.com/1utbhCf.png)
+
+
+### 資訊安全提醒：
+
+短網址雖然有其必要與方便性，但也有其看不到原本網址，讓有心破壞者用此來作為釣魚工具，以欺騙人未留意便點擊了假冒網站被盜取密碼或是連到了放有惡意軟體的地方等等上當而損失的危險。因此**千萬不可衝動**地任意點擊別人給你或網路流傳的短網址,而是先檢查短網址本身的原本未被縮短之前的正常網址到底是哪裏，[Shortened URL Security Tips](https://www.safecomputing.umich.edu/tips/shortened-url-security-tips)所整理的一些實用工具就可以派上用場:
+
+ - unfurlr.com 
+ - getlinkinfo.com
+ - unshorten.it
+ - urlxray.com
+  
+
+
+
+
+
+
+

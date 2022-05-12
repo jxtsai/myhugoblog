@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/github/</link>
+    <description>Recent content in Github on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 27 Dec 2016 11:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>台灣隱私現況整理(進行中)</title>
+      <link>https://blog.jxtsai.info/2016/12/05/privacy-in-taiwan/</link>
+      <pubDate>Mon, 05 Dec 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/05/privacy-in-taiwan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/20161205-1.png&#34; alt=&#34;state of privacy&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;一開始看到&lt;a href=&#34;https://privacyinternational.org/reports/state-of-privacy&#34;&gt;Privacy Internatinal 弄的這個各國隱私權狀況專案&lt;/a&gt;時，我第一個直覺的反應是：它蠻適合用來讓關心人權報告撰寫的民間團體依照這個架構來梳理一下自己國家在公政公約第17條隱私狀況的法令架構與落實狀況。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/20161205-2.png&#34; alt=&#34;quitter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

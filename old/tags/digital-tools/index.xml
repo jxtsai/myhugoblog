@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Tools on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/digital-tools/</link>
+    <description>Recent content in Digital Tools on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 10 May 2018 22:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/digital-tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>再訪 Mighty Networks </title>
+      <link>https://blog.jxtsai.info/2018/05/10/mighty-network-revisit/</link>
+      <pubDate>Thu, 10 May 2018 22:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/10/mighty-network-revisit/</guid>
+      <description>&lt;p&gt;繼發表過&lt;a href=&#34;https://to.twngo.xyz/2KryBDp&#34;&gt;Mighty Networks 網路社群經營新選項 &lt;/a&gt;之後，接下來幾天花了點時間泡在 MN 的社群當中(MN Hosts/ MN Creators)，驗證一下它的用戶體驗、產品服務路徑規劃以及看看其它社群主人如何經營自己客層的心得交流。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mighty Networks 網路社群經營新選項</title>
+      <link>https://blog.jxtsai.info/2018/05/01/mighty-networks/</link>
+      <pubDate>Tue, 01 May 2018 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/01/mighty-networks/</guid>
+      <description>&lt;p&gt;日前接到一封來自 Mighty Networks 自稱是「Community Strategist 」的電子廣告郵件，從當下停住傻了一秒：Mighty Networks 是哪一家組織的電子報啊？幸好記憶力衰退的還不算太嚴重，三秒鐘後順利想起來在前陣刪除臉書、退出臉書的浪頭上，看到一篇「How to manipulate facebook and twitter instead of letting them manipulate you」，文中提到當年 NING (有人還記得這個服務嗎?) 的創辦人在去年(2017)又新起另一家網路服務 Mighty Networks，可以讓用戶快速地建立專為家人或朋友專屬的社交平台。喜歡嚐試網路上各式新服務的我，立馬註冊了一個帳號。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>samepage.io 免費版測試</title>
+      <link>https://blog.jxtsai.info/2018/04/29/samepage/</link>
+      <pubDate>Sun, 29 Apr 2018 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/04/29/samepage/</guid>
+      <description>&lt;p&gt;之前偶才知道，微軟有一套架構在伺服器/或使用其雲端服務建置工作管理系統 SharePoint。據說其主要功能與目地仍在於協助「組織」、「團隊」工作的協作使用，以共享重要檔案文件，追踪專案進度，又可和不同分組的成員（或外部人員）依權限篩選資訊、建置應用程式與網站，以及管理風險&amp;hellip;..。這種聽起來就像樂高積木的玩具我怎麼能夠錯過呢&amp;hellip;..，但因苦無試用版，只好退其次看看坊間是否有其它的替代服務。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>hypothes.is 線上註記筆記</title>
+      <link>https://blog.jxtsai.info/2017/05/12/hypothesis/</link>
+      <pubDate>Fri, 12 May 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/12/hypothesis/</guid>
+      <description>&lt;p&gt;去年在作&lt;a href=&#34;https://self.jxtsai.info/2016/08/level-up.html&#34;&gt;level-up網站中文化&lt;/a&gt;時，知道了&lt;a href=&#34;hypothes.is&#34;&gt;hypothes.is&lt;/a&gt;這個玩意，level-up本身作為一個提供給資訊安全訓練者的教案教學設計指引，本來就希望其網頁資料能方便使用者（資安訓練講師）能透過各種安全又方便的回饋管道與方式，來收集各方意見改進其教材。&lt;/p&gt;
+
+&lt;p&gt;最近因為打算要作個小專案網站，再次想起了 hypothesis，剛好趁此好好了解它的使用順便寫下一點簡單的介紹教學。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>協作平台服務 Glip 介紹</title>
+      <link>https://blog.jxtsai.info/2017/03/24/glip/</link>
+      <pubDate>Fri, 24 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/24/glip/</guid>
+      <description>&lt;p&gt;不確定是否有人仔細寫過Glip的中文介紹，但至少目前google搜尋找不到一篇說明清楚的中文介紹， 自己在經過一番簡單的使用與測試後頗為驚豔它各種貼心的設計，遂把自己的體驗與心得寫下此文作為新手入門的介紹。另外，我個人覺得digital物資資源與知識能力有限的NGO，在挑選工作公務上的溝時工具時，最好能開始思考如何減少完全依賴facebook, line此種私人社交朋友圈使用的網路通訊工具平台，以免過份混雜了公私之間的界限。若NGO組織工作者有心考慮採用這兩三年來各種雨後春筍的團隊溝通平台或軟體，中文圈較少人知悉、使用Glip，則希望透過本文的介紹，讓NGO將其列入的考慮選項。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>technology tools for NGO part II</title>
+      <link>https://blog.jxtsai.info/2017/01/26/technology-tools-in-human-rights/</link>
+      <pubDate>Thu, 26 Jan 2017 09:36:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/26/technology-tools-in-human-rights/</guid>
+      <description>&lt;p&gt;延續著上一篇文章介紹了The Engine Room 2015年作專案「&lt;a href=&#34;https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/&#34;&gt;Tool Selection Assistance&lt;/a&gt;」。接下來想再談談TER在一年多後，所發佈的「technology tools in human rights」。&lt;/p&gt;
+
+&lt;p&gt;時序上我先讀完Technology tools in human rights，這個主題照講對我而言根本是致命的吸引力，在閱讀過程中也偶有靈光乍現，但總覺得其內容有點過於零碎，不知要如何整理出它的重點。過了幾週之後，才知道TER之前有Tool Selection Assistance專案。從命題上，倒是蠻符合TER欲從人類學觀點探究非營利社會倡議社群在數位科技的採用上更具能動與自主性，故而後從TAS專案中全面性觀點的高度，大大幫助我重新理解了NGO社群中的人權組織看待科技工具/數位工具時是否該有差異於其它議題NGO的特性。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>technology tools for NGO part I</title>
+      <link>https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/</link>
+      <pubDate>Sat, 21 Jan 2017 10:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/21/tool-selection-assistant/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.theengineroom.org/&#34;&gt;The engine room&lt;/a&gt;是我去年才知道的組織。好像先是從訂閱&lt;a href=&#34;https://responsibledata.io&#34;&gt;reponsibledata forum&lt;/a&gt; 有趣的電子報開始，2016後半年接著讀了幾份他們發表的報告,包括人權工作者如何妥善使用各種資料（請另見：&lt;a href=&#34;http://self.jxtsai.info/2016/07/digital-data-in-human-rights.html&#34;&gt;digital data in human rights 筆記摘要&lt;/a&gt;; &lt;a href=&#34;http://self.jxtsai.info/2016/08/datnav.html&#34;&gt;DatNav - 數位資料在人權應用之建議&lt;/a&gt;），人權捍衛者的數位安全指南（&lt;a href=&#34;http://self.jxtsai.info/2016/08/level-up.html&#34;&gt;levelup project&lt;/a&gt;），這些議題與觀點都還蠻合我的味口。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2016全球NGO線上使用調查</title>
+      <link>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</link>
+      <pubDate>Wed, 14 Dec 2016 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/14/global-ngo-online/</guid>
+      <description>&lt;p&gt;NonProfit Tech for Good發佈了&lt;a href=&#34;http://techreport.ngo/2016.html&#34;&gt;2016 Global NGO Online Technology Report&lt;/a&gt;，這份報告整理了2,780個NGOs組織回應其問卷調查，參與者橫跨六大洲133個不同國家，其中有60％的NGO自評是屬於「小而美」的組織規模(這份調查中並無用制式的員工人數或資金經費額度來評比組織大小，而是讓填寫者可自由寫出對自己組織該歸類於大中小三級中哪一類規模。)當然這其中2700多個所謂的NGO/NPO也有自各的議題關注或倡議焦點，調查中除了揭示今年全球大小NGO/NPO在網站工具與社交媒體使用狀況的統計外，這份報告也稍微分析了一下各NGO捐助者的世代屬性與捐款行為偏好。我個人長期訂閱NonProfit Tech for Good的消息，是覺得其調查結果可作為理解當前NGO/NPO總體社群狀況的參考，故稍把其內容轉貼過來。&lt;/p&gt;
+
+&lt;p&gt;今年呈現的數據狀況結果是：
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小組織可免費使用的工作型郵件</title>
+      <link>https://blog.jxtsai.info/2016/11/29/email-for-work/</link>
+      <pubDate>Tue, 29 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/29/email-for-work/</guid>
+      <description>&lt;p&gt;繼twngo.xyz啟用後，寫了第一篇談NGO為何需要申請一個專屬代表單位的網域名：&lt;a href=&#34;https://medium.twngo.xyz/ngos-domain-name-%E7%B6%B2%E5%9F%9F%E8%A8%BB%E5%86%8A-f9b5425f65d6#.g8869esvs&#34;&gt;NGO’s Domain Name 網域註冊&lt;/a&gt;，接下來第二篇介紹的是，如何透過這組網域名來設定&lt;a href=&#34;https://medium.twngo.xyz/ngo-%E5%B7%A5%E4%BD%9C%E7%94%A8-%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E8%A8%AD%E5%AE%9A-91a29225f3f6#.wvhfbedq4&#34;&gt;組織或單位的工作用電子郵件&lt;/a&gt;。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NGO 申請網域名之必要</title>
+      <link>https://blog.jxtsai.info/2016/11/23/ngo-domain-name/</link>
+      <pubDate>Wed, 23 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/23/ngo-domain-name/</guid>
+      <description>&lt;p&gt;先寫了一篇NGO在數位網路年代最好要有一個專屬代表單位的網域名介紹文章：&lt;a href=&#34;https://medium.twngo.xyz/ngos-domain-name-%E7%B6%B2%E5%9F%9F%E8%A8%BB%E5%86%8A-f9b5425f65d6#.g8869esvs&#34;&gt;NGO’s Domain Name 網域註冊&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;接下來打算陸續寫：子網域設定轉址教學、電子報發送、social media 使用政策、另類辦公室生產力工具、專案管理軟體、NPO free webinar
+等內容，希望先能夠固定一週至少有一篇文章發表～～&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>twngo.xyz 上線</title>
+      <link>https://blog.jxtsai.info/2016/11/21/twngo-xyz/</link>
+      <pubDate>Mon, 21 Nov 2016 19:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/21/twngo-xyz/</guid>
+      <description>&lt;p&gt;其實一開始只是被&lt;a href=&#34;https://gandi.net&#34;&gt;gandi.net&lt;/a&gt;正在特價促銷某些頂級網域名稱所打動，想隨便買個便宜的TLD來玩個一年看看。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>人權侵害記錄工具箱</title>
+      <link>https://blog.jxtsai.info/2016/11/02/hr-documentation-toolkit/</link>
+      <pubDate>Wed, 02 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/02/hr-documentation-toolkit/</guid>
+      <description>&lt;p&gt;﻿
+上個月曾稍認真地讀了這本由Public International Law and Policy Group所編寫的工具書「的「Handbook on Civil Society Documentation of Serious Human Rights Violations」，並稍整理了該&lt;a href=&#34;http://self.jxtsai.info/2016/10/handbook-on-civil-society-documentation.html&#34;&gt;手冊的簡單中文摘要&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;最近又看到他們推出一個線上網站&lt;a href=&#34;http://www.hrdtoolkit.org/&#34;&gt;HRD Toolkit&lt;/a&gt;，想說還是稍微用一篇部落格文章來記錄了這個網站到底有什麼資源內容，以免很快地忘記了有這些工具、方法與材料可以了解與運用。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

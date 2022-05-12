@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tails on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/tails/</link>
+    <description>Recent content in Tails on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 04 Aug 2017 17:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/tails/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tails 官網中文推廣翻譯計畫介紹說明</title>
+      <link>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</link>
+      <pubDate>Fri, 04 Aug 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</guid>
+      <description>&lt;p&gt;最近二個月和一位中國網友（彼此都在 Tails 的本地化郵件群組默默潛水很久，某天對方忽然出聲，果然把我引誘出洞）組成了一個推動 Tails 官網中文翻譯的工作小組。目前總體網站繁體中文初稿已完成了近 80%，但仍然需要不斷有多一支（以上）的新手加入。為了鼓勵迎接更多人可投入此項長期持續工作，稍微整理一下本計畫的翻譯工作流程與相關工具簡介，作為日後工作群組新加入者可參考的上手文件。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

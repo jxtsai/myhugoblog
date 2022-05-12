@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/security/</link>
+    <description>Recent content in Security on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 10 Oct 2017 09:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>umbrella  正體中文網站上線</title>
+      <link>https://blog.jxtsai.info/2017/10/10/umbrella/</link>
+      <pubDate>Tue, 10 Oct 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/10/10/umbrella/</guid>
+      <description>&lt;p&gt;說起來好像是 2015 年左右，透過一位國外人權團體工作者的推文分享，知道 &lt;a href=&#34;https://secfirst.org&#34;&gt;umbrella app&lt;/a&gt; 這個安裝在 Android 智慧手機的應用，當時幾度下載過來試玩，第一版的 umbrella app 像是一份「工具書」，提供了線上資訊數位安全與離線人身安全的各種提醒指引，後來陸續強化了它的資訊功能與使用者介面。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LevelUp （紙糊的）中文網站上線 :p</title>
+      <link>https://blog.jxtsai.info/2017/09/30/levelup/</link>
+      <pubDate>Sat, 30 Sep 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/09/30/levelup/</guid>
+      <description>&lt;p&gt;去年最花時間投入的二個在地化翻譯專案，到頭來回顧，都是蠻好的失敗教訓，畢竟失敗這回事佔滿了人生的十之八九。
+但還是稍心有不甘地想繼續賭氣，於是回過頭來整理去年譯成的初稿，算是把它們告一段落地終結。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路自由本地化翻譯衝</title>
+      <link>https://blog.jxtsai.info/2017/08/11/localization-sprint/</link>
+      <pubDate>Fri, 11 Aug 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/11/localization-sprint/</guid>
+      <description>&lt;p&gt;最近在推一場「&lt;a href=&#34;https://twngo.kktix.cc/events/l10nsprint&#34;&gt;網路自由本地化翻譯衝&lt;/a&gt;」，活動之前想多少為其留下一點前因後果的文字記錄，因為它可能是全台灣第一場此類型的活動。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tails 官網中文推廣翻譯計畫介紹說明</title>
+      <link>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</link>
+      <pubDate>Fri, 04 Aug 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</guid>
+      <description>&lt;p&gt;最近二個月和一位中國網友（彼此都在 Tails 的本地化郵件群組默默潛水很久，某天對方忽然出聲，果然把我引誘出洞）組成了一個推動 Tails 官網中文翻譯的工作小組。目前總體網站繁體中文初稿已完成了近 80%，但仍然需要不斷有多一支（以上）的新手加入。為了鼓勵迎接更多人可投入此項長期持續工作，稍微整理一下本計畫的翻譯工作流程與相關工具簡介，作為日後工作群組新加入者可參考的上手文件。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>yubico key ubuntu 安裝過程</title>
+      <link>https://blog.jxtsai.info/2017/07/22/yubico-key/</link>
+      <pubDate>Sat, 22 Jul 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/07/22/yubico-key/</guid>
+      <description>&lt;p&gt;本週收到了新入手的 yubico key，但透由搜尋引擎能找到的中文介紹資訊不多，就算寫的是中文，也幾乎讓人看不懂╮(－_－)╭ 。遂將自己從購入到安裝設定的過程記錄下來 。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Digital Standard</title>
+      <link>https://blog.jxtsai.info/2017/05/19/digitalstandard/</link>
+      <pubDate>Fri, 19 May 2017 07:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/05/19/digitalstandard/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.thedigitalstandard.org/the-standard&#34;&gt;The Digital Standard&lt;/a&gt; 是由美國數個消費者運動 &lt;a href=&#34;http://consumerreports.org/&#34;&gt;Consumer Reports&lt;/a&gt;、數位人權&lt;a href=&#34;https://disconnect.me/&#34;&gt;Disconnect&lt;/a&gt;, &lt;a href=&#34;https://rankingdigitalrights.org/&#34;&gt;Ranking Digital Rights&lt;/a&gt;, The Cyber Independent Testing Lab 等發起的業界標準，希望促使軟體、網路服務與物聯網用品製造商能從：安全、隱私、治理合規、用戶所有權四大範疇來考量其産品、軟體或服務設計，肴望有一天這個 Digital Standard 能成為軟體、網路服務與物聯網用品製造商等數位經濟下各式廠商的「業界基配標準」。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>寫在初次CryptoParty Kaohsiung 之後</title>
+      <link>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</link>
+      <pubDate>Thu, 02 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</guid>
+      <description>&lt;p&gt;其實這篇文章草稿早在十多天前就寫畢，但後來不知在考慮什麼莫名的因素，暫且把它按而不發。總之，這是一個純個人角度的反省，雖然在這個數位化的年代裏，不時想要逃避無孔不入的無型巨大監獄，但偶而還是得為自己人性本能的健忘與懈怠懶散,留下一點鞭策力量的記錄吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>（安全）網路使用工具清單-桌機筆電篇</title>
+      <link>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</link>
+      <pubDate>Tue, 15 Nov 2016 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/15/digital-security-tools/</guid>
+      <description>&lt;p&gt;11月9日過後的幾天裏，我的推特圈上最充斥的是：一些美國人權組織發表募款訊息號召更多會員加入以準備對抗2017年１月之後所將面臨的長期抵抗。除此之外，不少教新聞記者、人權工作者以及內部吹哨者（whistleblower）如何加強自保以及強化通訊私密數位安全交戰手冊等，也再一次被拿出來推廣。&lt;/p&gt;
+
+&lt;p&gt;看這些消息被轉來轉去之際，我想自己過去一年多來也親身體驗了不少數位資訊安全的工具、逃離獨大壟斷集中式商業軟體或「免費」服務對個別用戶的資枓與習慣綁架與依賴，分散減少數位安全風險，而在台灣中文社群中似乎較少看到這樣的資料整理，故先野人獻曝一下地分享我較常使用的「另類」（數位安全）網路使用工具清單，本文先以個人電腦、筆電為主，稍後再整理智慧型手機：
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>互聯網：網路個人資料可視狀況總覧</title>
+      <link>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</link>
+      <pubDate>Wed, 09 Nov 2016 12:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/09/5wofinformationonline/</guid>
+      <description>&lt;p&gt;十幾天前，透過open technology fund的推文，看到美國哥倫比亞大學新聞研究學院&lt;a href=&#34;http://towcenter.org/&#34;&gt;Tow Center for Digital Journalism&lt;/a&gt;,在gitbook發佈了一個漫畫：&lt;a href=&#34;https://www.gitbook.com/book/towcenter/understand-your-internet-the-five-w-s-of-informat/details&#34;&gt;Understand Your Internet: The Five W&amp;rsquo;s of Information Online&lt;/a&gt;
+&lt;img src=&#34;https://ek8whxe.cloudimg.io/s/cdn/x/https://www.gitbook.com/content/book/towcenter/understand-your-internet-the-five-w-s-of-informat/TheInternetADataVisibilityOverview-low.jpg&#34; alt=&#34;image Five W&#39;s of Information Online&#34; /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

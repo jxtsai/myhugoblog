@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Return to laughter</title>
+    <link>https://blog.jxtsai.info/categories/</link>
+    <description>Recent content in Categories on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 30 Jun 2019 00:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://blog.jxtsai.info/categories/blogging/</link>
+      <pubDate>Sun, 30 Jun 2019 00:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/categories/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Rights</title>
+      <link>https://blog.jxtsai.info/categories/human-rights/</link>
+      <pubDate>Thu, 17 May 2018 22:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/categories/human-rights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internet</title>
+      <link>https://blog.jxtsai.info/categories/internet/</link>
+      <pubDate>Mon, 10 Dec 2018 22:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/categories/internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>https://blog.jxtsai.info/categories/others/</link>
+      <pubDate>Fri, 28 Apr 2017 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/categories/others/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

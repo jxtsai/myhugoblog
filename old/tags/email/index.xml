@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/email/</link>
+    <description>Recent content in Email on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 24 Mar 2017 14:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>協作平台服務 Glip 介紹</title>
+      <link>https://blog.jxtsai.info/2017/03/24/glip/</link>
+      <pubDate>Fri, 24 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/24/glip/</guid>
+      <description>&lt;p&gt;不確定是否有人仔細寫過Glip的中文介紹，但至少目前google搜尋找不到一篇說明清楚的中文介紹， 自己在經過一番簡單的使用與測試後頗為驚豔它各種貼心的設計，遂把自己的體驗與心得寫下此文作為新手入門的介紹。另外，我個人覺得digital物資資源與知識能力有限的NGO，在挑選工作公務上的溝時工具時，最好能開始思考如何減少完全依賴facebook, line此種私人社交朋友圈使用的網路通訊工具平台，以免過份混雜了公私之間的界限。若NGO組織工作者有心考慮採用這兩三年來各種雨後春筍的團隊溝通平台或軟體，中文圈較少人知悉、使用Glip，則希望透過本文的介紹，讓NGO將其列入的考慮選項。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>M&#43;R’s 2016 NPO線上指標報告</title>
+      <link>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</link>
+      <pubDate>Thu, 22 Dec 2016 08:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/22/benchmarks-x-2016/</guid>
+      <description>&lt;p&gt;上週介紹過NonProfit Tech for Good所發佈的「2016 Global NGO Online Technology Report」&lt;a href=&#34;https://blog.jxtsai.info/2016/12/14/global-ngo-online/&#34;&gt;2016全球NGO線上使用調查&lt;/a&gt;,這兩天又翻讀&lt;a href=&#34;http://www.mrss.com/about/&#34;&gt;M+R’s&lt;/a&gt; 進入第十年發表了年度&lt;a href=&#34;http://mrbenchmarks.com/#page/download&#34;&gt;Benchmarks Study：Online metrics for nonprofits&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>小組織可免費使用的工作型郵件</title>
+      <link>https://blog.jxtsai.info/2016/11/29/email-for-work/</link>
+      <pubDate>Tue, 29 Nov 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/11/29/email-for-work/</guid>
+      <description>&lt;p&gt;繼twngo.xyz啟用後，寫了第一篇談NGO為何需要申請一個專屬代表單位的網域名：&lt;a href=&#34;https://medium.twngo.xyz/ngos-domain-name-%E7%B6%B2%E5%9F%9F%E8%A8%BB%E5%86%8A-f9b5425f65d6#.g8869esvs&#34;&gt;NGO’s Domain Name 網域註冊&lt;/a&gt;，接下來第二篇介紹的是，如何透過這組網域名來設定&lt;a href=&#34;https://medium.twngo.xyz/ngo-%E5%B7%A5%E4%BD%9C%E7%94%A8-%E9%9B%BB%E5%AD%90%E9%83%B5%E4%BB%B6%E8%A8%AD%E5%AE%9A-91a29225f3f6#.wvhfbedq4&#34;&gt;組織或單位的工作用電子郵件&lt;/a&gt;。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

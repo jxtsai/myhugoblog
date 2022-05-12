@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Protecion on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/data-protecion/</link>
+    <description>Recent content in Data Protecion on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 29 Aug 2018 15:04:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/data-protecion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google Data Collection</title>
+      <link>https://blog.jxtsai.info/2018/08/29/google-data-collection/</link>
+      <pubDate>Wed, 29 Aug 2018 15:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/08/29/google-data-collection/</guid>
+      <description>&lt;p&gt;1998年創立，從網路搜尋引擎起家的 Google，今天已是跨足各式數位科技産業的跨國超級大企業。近一個月來，它最為華人社會與國際人權組織所關切的事件仍是 Intercept 報導了 Google 內部員工吹哨，揭露其為了全面重回中國市場，遂配合其網路審查干預政策，私下偷偷進行了過濾敏感辭等具中國特色的搜尋引擎計畫(Dragonfly)。國際人權組織或許從企業與人權、公司創業之初的信條：不作惡&amp;hellip;.等等軸線來發揮&lt;a href=&#34;https://rsf.org/en/news/ngo-coalition-including-rsf-urges-google-reject-chinese-censorship&#34;&gt;其公開信的內容&lt;/a&gt;。不過本文想要談的，倒不是這啟看似正義與侵害壓迫對立性與「正當性」如此分明的事件，而是 Google 在過去十年廿年以來，其開發、併購、提供的各式網路服務軟體或硬體設備，如何廣泛深入又默默無聲地搜集了用戶資料。Google 搜尋引擎說，他們的宗旨是： “To organize the world&amp;rsquo;s information and make it universally accessible and useful”，而在這個數據為黑金的時代裏，數十億 Google 服務使用者的個人資料，也早已是 Google 眼中全球資訊的一部份，雖然不見得可為「外部」平等使用(universally accessible)，但這片用戶黑金卻是 Google 繼續收取網路廣告利益與鞏固其運算科技優勢的燃料。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GPD Data protection for human rights defenders 小書介紹</title>
+      <link>https://blog.jxtsai.info/2018/07/25/gpd-data-protection/</link>
+      <pubDate>Wed, 25 Jul 2018 00:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/25/gpd-data-protection/</guid>
+      <description>&lt;p&gt;我個人還蠻喜歡 &lt;a href=&#34;https://www.gp-digital.org/&#34;&gt;Global Partners Digital&lt;/a&gt; 從人權角度探討言論自由與隱私、數位安全、網路治理所編寫的出版品。原因是他們整理歸納的工夫非常好，用字行文非常淺白清晰，插圖非常賞心裞目地可愛。對該主題或領域陌生的新手，往往可以透過 GPD 這一系列小書整理的資訊，找到不錯的學習起點。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>手機行動通訊的安全隱私課題</title>
+      <link>https://blog.jxtsai.info/2018/07/16/security-privacy-cellular-phone/</link>
+      <pubDate>Mon, 16 Jul 2018 18:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/16/security-privacy-cellular-phone/</guid>
+      <description>&lt;p&gt;英國隱私權倡議團體 Privacy International，最近一期的電子報主題應著時事、環繞美國總統川普到英國訪問之行，見縫插針地宣傳隱私權課題。PI 重點在於主張人民實踐集會抗議權利之際，其實隱私權的重要性也不遑多讓，例如警方利用偵察無人機/社交帳號資料探堪/ MISI catcher/ 人臉辨識等科技來監控抗議者的行動行踪。當隱私不保隨時有位老大哥在身後監控一舉一動，又如何能安心實踐其它作為一個人所享有的其它基本權利？&lt;/p&gt;
+
+&lt;p&gt;其中提到的 IMSI catchers 問題，其背後帶出了過去近廿年，當行動電話在日常生活上的使用已大幅超越了傳統電話線；當網路的0110電子位元傳送的方式從「早期」有形具體的電纜、電絞線，變成了靠空氣中看不到的無線電訊號來傳送，這又會有什麼安全與隱私上的風險呢？基於此好奇，簡單地查找了一點關於行動數據年代中，有關資訊安全與用戶通訊隱私的入門知識，希望透過這些整理，讓一般使用者能更清楚地了解行動通信與行動數據傳輸的風險威脅。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路隱私、個人資料與 ISP（下）</title>
+      <link>https://blog.jxtsai.info/2018/07/04/online-privacy-and-isps-2/</link>
+      <pubDate>Wed, 04 Jul 2018 00:54:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/07/04/online-privacy-and-isps-2/</guid>
+      <description>&lt;p&gt;上回簡單介紹過 Swire 等人於 2016 年 2 月初次發表的報告「&lt;a href=&#34;https://www.privateinternetaccess.com/pages/privacy-from-internet-service-provider-isp&#34;&gt;Online Privacy and ISPs&lt;/a&gt;」，Swire Paper 主張鑑於現今( 2016 年左右)網路生態變化與技術發展， ISP 能夠掌握的用戶資料已比諸 20 年前大幅減低，今天對個人資料收集與隱私傷害威脅更巨者應是來自：社交媒體公司、搜尋引擎服務、網頁電郵與聊天訊息軟體、手機作業系統、瀏覽器，線上影音和電子商務等等其它網路業者。&lt;/p&gt;
+
+&lt;p&gt;然而有人則不盡同意 Swire Papers 之見解，Upturn 隨即在不到一個月的時間內（ 2016 年 3月）發表了「&lt;a href=&#34;https://www.teamupturn.org/reports/2016/what-isps-can-see/&#34;&gt;What ISPs Can See&lt;/a&gt;」，爭執 Swire Papers 主張科技進展可削弱 ISP 對消費者網路使用活動監控之樂觀立場，Upturn 盼望透由此文提出更週嚴意見的補充，有助於決策者、數位權利倡議組織、一般社會大眾能更周全地掌握科技現實的進展與應用狀況，以理性討論與建設性對話作為公共政策制定的理性基礎。&lt;/p&gt;
+
+&lt;p&gt;既然已寫過 Swire Paper，同樣為了平衡資訊比重，當然不能略過對這篇「What ISPs Can See」之介紹。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>網路隱私、個人資料與 ISP(上)</title>
+      <link>https://blog.jxtsai.info/2018/06/25/online-privacy-and-isps-1/</link>
+      <pubDate>Mon, 25 Jun 2018 10:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/06/25/online-privacy-and-isps-1/</guid>
+      <description>&lt;p&gt;作為一名長期的網際網路 internet 愛用者，即便曾協助作過一點點網路自由（對抗言論審查封鎖或是加密、提高使用者隱私等）工具軟體與相關資訊的中文翻譯推介，但是過去一年自己才更有意識地懷疑於到底我的哪些「個人資料」，如何在我使用網際網路時上被（哪些人）收集、處理，甚致是更進一步地在我未明確知悉與授權的狀況下，「轉售」或提供給哪些第三方來其它目的的使用。&lt;/p&gt;
+
+&lt;p&gt;為了追究上述個人的小小疑問，最近試圖著系統化地作點功課，並將這樣的資訊記錄下來。想像也許某一天，向來自認一生坦蕩蕩每天在網路上公開三餐吃什麼的過路人看到這樣的個人資訊在網路上裸奔流竄的現實後，會重新好好想想在數位時代中個人資訊曝露程度與保護段是否要再調整。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Risks of Data-Intensive Systems</title>
+      <link>https://blog.jxtsai.info/2018/05/30/data-intensive/</link>
+      <pubDate>Wed, 30 May 2018 10:34:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2018/05/30/data-intensive/</guid>
+      <description>&lt;p&gt;我個人常常覺得，在當前網路數位年代中，「上網」這件事已如空氣般自然存在，大部份網路使用者不須了解五層還是七層的軟硬體協議運作技術知識，就可以輕輕鬆鬆地享受網路生活的便利與好處。而這種「不必懂」，慢慢地讓變成了「不想懂」、「不願懂」的好奇心匱乏，進而害怕技術遠離技術討論，因而只能依賴所謂的專家（但可能「專家」是僅專精某一小塊領域訓練有素的「ㄍㄡˇ 」）所提供的片面資訊。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

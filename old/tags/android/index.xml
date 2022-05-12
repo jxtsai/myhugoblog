@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/android/</link>
+    <description>Recent content in Android on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 18 Dec 2017 21:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Galaxy Nexus 昇級 LineageOS 13</title>
+      <link>https://blog.jxtsai.info/2017/12/18/nexus4-cmod13/</link>
+      <pubDate>Mon, 18 Dec 2017 21:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/12/18/nexus4-cmod13/</guid>
+      <description>&lt;p&gt;繼前一天太過輕易地成功把四年的老機子 &lt;a href=&#34;https://blog.jxtsai.info/2017/12/16/t235y-cmod13/&#34;&gt;Samsung Tab4 昇級到 Android 6.0&lt;/a&gt; 之後，心裏便按耐不住地也想替手上主要使用的 Galaxy Nexus 進行一番昇級。為了日後重覆操作或再次昇級之需，還是把這回刷機過程記錄下來。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Samsung Tab4 T235y 昇級 CyanogenMod 13</title>
+      <link>https://blog.jxtsai.info/2017/12/16/t235y-cmod13/</link>
+      <pubDate>Sat, 16 Dec 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/12/16/t235y-cmod13/</guid>
+      <description>&lt;p&gt;Samsung Tab4 7.0　是一款問市近 4 年的老機子。它本身就被三星定位為低階入門機（作為引誘消費者電信續約方案的免費贈品），故無法指望廠商會為它的昇級安全作出太多的投資，官方的系統昇級一直僅停留在 Android 4.4 版本（倒是聽聞北歐的用戶，有幸運地被昇級到 5.0 棒棒糖）。記得三年多前，剛拿到這台機子時，常為了它莫名的死當狀況為之氣結，當時拿到三星門市維修，服務員還明示說這款機型無法承受同時執行太多程式，但我明明只有開個瀏覧器之類的，放了一陣子它便自行掛機熄火=.=，還非得用強迫開機（power + home）方式才能喚醒它。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>android 手機應用製作</title>
+      <link>https://blog.jxtsai.info/2017/11/26/android-apk/</link>
+      <pubDate>Sun, 26 Nov 2017 09:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/11/26/android-apk/</guid>
+      <description>&lt;p&gt;最近稍在學習如何「製作」手機專用的應用程式，我的情況是：並非要開發出什麼驚為天人的 app ，主要只是想把手邊一些網站（本身已符合響應式設計）或以網頁為主的素材，打包成為一個 apk。嚐試研究過以下幾個方法：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;MIT App Invertor&lt;/li&gt;
+&lt;li&gt;Cordova&lt;/li&gt;
+&lt;li&gt;網路上「免費」快速的手機應用軟體打造網站，如 &lt;a href=&#34;https://ibuildapp.com&#34;&gt;ibuildapp&lt;/a&gt;, &lt;a href=&#34;https://appsgeyser.com&#34;&gt;appsgeyser&lt;/a&gt;, &lt;a href=&#34;https://www.androidcreator.com&#34;&gt;androidcreator&lt;/a&gt; 等等。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

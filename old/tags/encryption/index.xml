@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Encryption on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/encryption/</link>
+    <description>Recent content in Encryption on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 11 Aug 2017 10:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>網路自由本地化翻譯衝</title>
+      <link>https://blog.jxtsai.info/2017/08/11/localization-sprint/</link>
+      <pubDate>Fri, 11 Aug 2017 10:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/11/localization-sprint/</guid>
+      <description>&lt;p&gt;最近在推一場「&lt;a href=&#34;https://twngo.kktix.cc/events/l10nsprint&#34;&gt;網路自由本地化翻譯衝&lt;/a&gt;」，活動之前想多少為其留下一點前因後果的文字記錄，因為它可能是全台灣第一場此類型的活動。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tails 官網中文推廣翻譯計畫介紹說明</title>
+      <link>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</link>
+      <pubDate>Fri, 04 Aug 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/08/04/about-tails-l10n/</guid>
+      <description>&lt;p&gt;最近二個月和一位中國網友（彼此都在 Tails 的本地化郵件群組默默潛水很久，某天對方忽然出聲，果然把我引誘出洞）組成了一個推動 Tails 官網中文翻譯的工作小組。目前總體網站繁體中文初稿已完成了近 80%，但仍然需要不斷有多一支（以上）的新手加入。為了鼓勵迎接更多人可投入此項長期持續工作，稍微整理一下本計畫的翻譯工作流程與相關工具簡介，作為日後工作群組新加入者可參考的上手文件。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>yubico key ubuntu 安裝過程</title>
+      <link>https://blog.jxtsai.info/2017/07/22/yubico-key/</link>
+      <pubDate>Sat, 22 Jul 2017 17:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/07/22/yubico-key/</guid>
+      <description>&lt;p&gt;本週收到了新入手的 yubico key，但透由搜尋引擎能找到的中文介紹資訊不多，就算寫的是中文，也幾乎讓人看不懂╮(－_－)╭ 。遂將自己從購入到安裝設定的過程記錄下來 。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>CryptPad</title>
+      <link>https://blog.jxtsai.info/2017/06/08/cryptpad/</link>
+      <pubDate>Thu, 08 Jun 2017 08:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/06/08/cryptpad/</guid>
+      <description>&lt;p&gt;hackpad 曾經一度我是在三四年前常愛使用的線上筆記本。愛用的原因是它不像google doc 那種富文本（ rich text 編輯）環境介面為了文書版型美觀而弄得功能複雜， 只要輸入文字就立即完成儲存，即便不會高明進階的 markdown 語法，但只要記得幾個簡單規則就可以輕鬆地讓自己的純文字檔案讀起來也層次分明。線上文件編輯最大的好處之一，是檔案放在雲端，因此不必擔心早期本地端工作檔案帶來帶去一番折騰麻煩。線上文件編輯最大的好處之二，則是大大方便了不同作者之間的同步協作。不過這二年來已少用hackpad，一是自己已不太常與他人協作文件，一是因學習程式編碼慣用暗背景高亮文字配色風格，反而不太愛hackpad 只有白底黑字的編輯器環境選項（變態）。
+`&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>寫在初次CryptoParty Kaohsiung 之後</title>
+      <link>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</link>
+      <pubDate>Thu, 02 Mar 2017 14:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/03/02/cryptoparty-kaohsiung/</guid>
+      <description>&lt;p&gt;其實這篇文章草稿早在十多天前就寫畢，但後來不知在考慮什麼莫名的因素，暫且把它按而不發。總之，這是一個純個人角度的反省，雖然在這個數位化的年代裏，不時想要逃避無孔不入的無型巨大監獄，但偶而還是得為自己人性本能的健忘與懈怠懶散,留下一點鞭策力量的記錄吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>吹哨揭密者保護與軟體工具介紹</title>
+      <link>https://blog.jxtsai.info/2017/01/31/globaleaks/</link>
+      <pubDate>Tue, 31 Jan 2017 14:24:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2017/01/31/globaleaks/</guid>
+      <description>&lt;p&gt;本來只是想補充去年不足的簡介，只從技術面介紹吹哨揭密軟體的安裝使用，沒想到一寫不可收拾，發現得先討論一點關於吹哨者對政治問責、人權促進等前提的觀念釐清與提倡，結果寫得有點囉囉嗦嗦的雜亂，請多忍耐。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>privacytools.io 正體中文版</title>
+      <link>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</link>
+      <pubDate>Tue, 27 Dec 2016 11:04:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/27/privacytools-chinese/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://blog.jxtsai.info/post/2016-1227-1.png&#34; alt=&#34;privacytools.io&#34; /&gt;
+大約是在今年10月中旬才看到這個網站的資訊（&lt;a href=&#34;https://privacytools.io&#34;&gt;privacytools.io&lt;/a&gt;）。當時自己算是有了一點網路安全的入門知識，也覺得這個網站上收集提供的工具資訊非常有幫助，故花了點時間研究它所推薦的新玩意，並從中挑選試裝了一些軟體工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>檔案或目錄加密軟體</title>
+      <link>https://blog.jxtsai.info/2016/10/28/file-encrypt/</link>
+      <pubDate>Fri, 28 Oct 2016 11:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/10/28/file-encrypt/</guid>
+      <description>&lt;p&gt;雲端硬碟空間的服務，讓工作或常用資料備份在遠端伺服器，一但本地端電腦出了狀況，最主要擔心檔案如何先取出的問題便不再擾人，可以隨時地再次進行重整化或重新安裝作業系統，或是根本換一台電腦的應對處置。
+不過隨著個人慢慢地了解一點資訊安全的皮毛以及落實個人資訊自主權與隱私的龜毛之後，益發覺得儲放於雲端的資料&lt;strong&gt;有些&lt;/strong&gt;需要先進行加密再上傳存放（有些極重要的安全資料，如GPG私鑰，我是不會把它上傳到網路而是另外存在SD數位安全卡。不過話說，從來也沒人傳加密郵件給我就是了:p）。因此先試用了二款「開源」的加密軟體&amp;mdash;cryptomator &amp;amp; CryFS，本文為簡單的使用介紹。
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

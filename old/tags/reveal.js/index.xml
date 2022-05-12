@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reveal.js on Return to laughter</title>
+    <link>https://blog.jxtsai.info/tags/reveal.js/</link>
+    <description>Recent content in Reveal.js on Return to laughter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Mon, 19 Dec 2016 19:14:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blog.jxtsai.info/tags/reveal.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>將MD文件轉成html線上投影片</title>
+      <link>https://blog.jxtsai.info/2016/12/19/markdown-slide/</link>
+      <pubDate>Mon, 19 Dec 2016 19:14:00 +0000</pubDate>
+      
+      <guid>https://blog.jxtsai.info/2016/12/19/markdown-slide/</guid>
+      <description>&lt;p&gt;或許因為我是個網路移民，見證了簡報軟體的崛起，也不過是過去十多年來才從報告演說的視覺輔助工具變成了不下於講者的重要主角。但一直覺得不用弄什麼投影片但能把事情／故事、課程講清楚又動聽的人，才是真正高手。雖然我只是一個口條與表達能力平庸的普通人，卻蠻討厭作投影片簡報檔（或者說討厭「公開演說」甚致討厭說話這件事），偶而的樂趣反而是好奇地研究一下除了微軟powerpoint, apple keynote, libreoffice impression 之外的其它簡報製作法，例如之前曾玩過看起來轉來轉去很酷弦的prezi,以及改用linux作業系統後，在向量繪圖軟體inkscakp下安娤&lt;a href=&#34;http://self.jxtsai.info/2015/05/ubuntu-sozi.html&#34;&gt;sozi&lt;/a&gt;，以作出svg格式的簡報檔。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

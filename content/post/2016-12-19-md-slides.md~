@@ -1,0 +1,33 @@
++++
+date = "2016-12-19 19:14:00+00:00"
+draft = false
+title ="將MD文件轉成html線上投影片"
+slug = "markdown-slide"
+categories = ["internet"]
+tags = [
+  "Reveal.js",
+  "hacker slide",
+  "markdown"
+  ]
+disable_profile = false
+disable_widgets = false
++++
+或許因為我是個網路移民，見證了簡報軟體的崛起，也不過是過去十多年來才從報告𨣗演說的𥙋視覺輔助工具變成了不下於講者的重要主角。但一直覺得不用弄什麼投影片但能把事𢰨情／故事、課程講清𧰔楚又動聽的人，才是真正高手。雖然我只是一個口條與表達能力平庸的𪏈普通人，卻蠻討厭作投𢒳影片簡報檔（或者說討𦓢厭「公開𨣗演說𧦎」甚致討厭說話這件事），偶而的樂趣反而是好奇地研究一下除了微軟powerpoint, apple keynote, libreoffice impression 之外的其它簡報𥝊製作法，例如之前曾玩過看起來轉來轉去很酷弦的prezi,以及改用linux作業系統後，在向量繪圖軟體inkscakp下安娤[sozi](http://self.jxtsai.info/2015/05/ubuntu-sozi.html)，以作出svg格式的簡報檔。
+
+<!--more-->
+最近因為迷上markdown語法，從[sandstorm](http://self.jxtsai.info/2016/09/sandstorm.html)知道有一款[hacker slide](https://github.com/jacksingleton/hacker-slides)軟𦡊𦡊體，它結合了Ace Editor and RevealJS（下面會再提到），使用者在編輯𠾖時，可以同步查看其投影片的呈現。（若在sansstorm環境下使用則是在瀏覧器底下，一半是markdown編輯器，另一半的畫面則是投影片的結果。
+
+![hacker-slide](/post/20161220-1.png)
+
+
+我沒花時間費力研究如何把hacker slide裝在自己的電腦上，比較想要知道的技巧是如何可以快速地把已經以MD語法寫好的投影片，轉換成為可以在瀏覧器上公開播放的網頁格式。
+
+後來參考yenlung這篇中文教學，利用[Reveal.js](http://yenlung-blog.logdown.com/posts/313543-markdown-to-slides)專案，把原markdown所作成的投影片，順利地轉成了html網頁格式。 （無𠙊須使用數學式作投影片者，可在下載Reveal.js專案原始碼後，直𢺇接跳轉「**Markdown 直接來!**」這段即可）
+
+成功地可以在自己本地端的瀏覧器開啟index.hmtl作出一張張可𦓸播放投影片的效果之後，比較麻𤉑煩的問題反而是如何把它存放到合適（免費的）網路空間。原本我的想法是github底下開一個投影片（slides repositry）,然後把各式投影片以repositry底下資料夾形式存放。不過因為一開始自己不太了解github pages靜態網頁的路徑結構，試了好多次才𧽡超連結的位置設定成功 ==>http://slides.twngo.xyz
+
+想進一步了解Reveal.js更高明的𦄒版型、配色、動態使用，可參考以下中文教學示範。
+
+* gtwang: [Reveal.js用網頁製作簡報的 HTML5 架構](https://blog.gtwang.org/useful-tools/reveal-js-presentation-html5-framework/)
+* 資料視覺化:[Reveal.js + slides.com 製作令人驚豔的互動式簡報](http://blog.infographics.tw/2016/11/reveal-js-and-slides-com/)
+
