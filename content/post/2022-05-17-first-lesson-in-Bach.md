@@ -3,7 +3,7 @@ date = "2022-05-17 02:04:00+00:00"
 draft = false
 title = "自學鋼琴記錄-巴赫初步鋼琴曲集 no.1 ~8"
 slug = "Bach-first-lesson"
-categories = ["other"]
+categories = ["others"]
 tags = [
   "piano",
   "Bach"
