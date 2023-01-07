@@ -6,7 +6,7 @@ slug = "burgmueller-1to6"
 categories = ["others"]
 tags = [
   "keyboards",
-  "pinao"
+  "piano"
   ]
 disable_profile = false
 disable_widgets = false

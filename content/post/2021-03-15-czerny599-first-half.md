@@ -6,7 +6,7 @@ slug = "czerny599-first-half"
 categories = ["others"]
 tags = [
   "keyboards",
-  "pinao"
+  "piano"
   ]
 disable_profile = false
 disable_widgets = false
