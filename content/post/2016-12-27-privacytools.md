@@ -12,7 +12,9 @@ tags = [
   "surveillance",
   "security",
   "digital-tools",
-  "github"
+  "github",
+  "l10n",
+  "privacytools"
   ]
 disable_profile = false
 disable_widgets = false
