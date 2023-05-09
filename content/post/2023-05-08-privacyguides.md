@@ -29,6 +29,6 @@ disable_widgets = false
 
 是說  privacyguides.org 主站利用 [MkDocs](https://www.mkdocs.org/)打造，團隊的開發日誌說，除了直接支援  markdown 語法，使網站文件結構更清楚，便於協作的更新修改，更可以支援多語系的頁面展示轉化。
 
-本次翻譯的工作平台 crowdin，一開始還在摸索熟悉它的介面與流程，作為商用付費平台，其勝出於 transifex 的地方大概是它的機器翻譯引擎(machine translation)除了接合 google translate/ Microsoft Translator，也會根據真實參與者的人工翻譯作建議。所以這次的翻譯過程，自己大部份扮演校閱者角色，確認這些由機器所翻譯的字串，我覺得機器翻譯品質真的是"智能"學習不斷地迭代進步越來越好。而對人腦而言就算只是校閱任務， 還是蠻累心力，但也只有人類有"權力"可以按下確認的確認鍵。
+本次翻譯的工作平台 crowdin，一開始還在摸索熟悉它的介面與流程，作為商用付費平台，其勝出於 transifex 的地方大概是它的機器翻譯引擎(machine translation)除了接合 google translate/ Microsoft Translator，也會根據真實參與者的人工翻譯作建議。所以這次的翻譯過程，自己大部份扮演校閱者角色，確認這些由機器所翻譯的字串，我覺得機器翻譯品質真的是"智能"學習不斷地迭代進步越來越好。而對人腦而言就算只是校閱任務， 還是蠻累心力，但也只有人類有"權力"可以按下確認的發送鍵。
 
-待 privacyguides.org 把正體中文放入官網後，原中文版的 privacytools.twngo.xyz 也會成功身退，我會把 DNS 指向 privacyguides.org。也歡迎各位有心者在 privacyguides 論壇或是加入 crowdin 提出翻譯建議。
+待 privacyguides.org 把正體中文放入官網後，原中文版的 privacytools.twngo.xyz 也將功成身退，我會把 DNS 指向 privacyguides.org。也歡迎各位有心者在 privacyguides 論壇提出建議或是加入 crowdin 對翻譯作指正與貢獻。
