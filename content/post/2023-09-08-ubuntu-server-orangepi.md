@@ -1,4 +1,4 @@
-++
++++
 date = "2023-09-08 14:04:00+00:00"
 draft = false
 title = "ubuntu server on orangepi"
