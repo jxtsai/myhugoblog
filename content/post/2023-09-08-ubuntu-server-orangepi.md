@@ -23,6 +23,6 @@ disable_widgets = false
 
 接下來 update/ upgrade 來更新軟體套件。orangepi  官方設定的鏡像下載站點為中國清華大學，方便讓牆內用戶不必翻牆，但牆外用戶反而無法順利連接，因此需更改 /etc/apt/sources.list 的 apt 鏡像下載資訊為 http://ports.ubuntu.com/ubuntu-ports  才順利完成更新與升級。在 ubuntu server 20.4 for orangepi pc 的 python 版本為 3.8.10 可順利直接安裝 bpython/ ipython。而樹莓派 pi 2 的官方 ubuntu server 32 bit 版則已支援到 ubuntu 23.4 版，安裝與設定也更比香橙派直覺方便，可以在使用 rasp imager 燒錄 sd 記憶卡時直接設定用戶名稱和登入密碼，否則則為系統預設的 ubuntu/ ubuntu 。
 
-![](https://hackmd.io/_uploads/BkmGXk30n.jpg)
+![](https://i.imgur.com/Du5ypR8.jpeg)
 
 純文字指令環境無法使用滑鼠，也沒有 Ctrl+C V 複製貼上的功能，可以說是非常單純乾淨的學習環境。玩了兩三天又不甘寂莫地想找出更多玩法，除了使用 bython，還可以用 nano 編輯器寫簡單的代碼作業，於是想著怎樣把單板機上的資料能上傳網際網路，最方便的方法應是透過 githbu repo 的來同步分享追踪。ubuntu 自帶 git 無需另行下載，不過比較頭疼的是如何把 [ssh public key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) 加到自己的 github 帳戶底下，以便更輕鬆地在不同電腦之間進行代碼筆記更新。後來找到的方式是直接把 micro-sd 取出來在 linux 桌機或筆電上來取讀 ssh key 內容後貼到 github，之後就可以輕鬆地同步 python 學習記錄了。 
