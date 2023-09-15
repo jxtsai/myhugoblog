@@ -25,4 +25,8 @@ disable_widgets = false
 
 ![](https://i.imgur.com/Du5ypR8.jpeg)
 
-純文字指令環境無法使用滑鼠，也沒有 Ctrl+C V 複製貼上的功能，可以說是非常單純乾淨的學習環境。玩了兩三天又不甘寂莫地想找出更多玩法，除了使用 bython，還可以用 nano 編輯器寫簡單的代碼作業，於是想著怎樣把單板機上的資料能上傳網際網路，最方便的方法應是透過 githbu repo 的來同步分享追踪。ubuntu 自帶 git 無需另行下載，不過比較頭疼的是如何把 [ssh public key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) 加到自己的 github 帳戶底下，以便更輕鬆地在不同電腦之間進行代碼筆記更新。後來找到的方式是直接把 micro-sd 取出來在 linux 桌機或筆電上來取讀 ssh key 內容後貼到 github，之後就可以輕鬆地同步 python 學習記錄了。 
+純文字指令環境無法使用滑鼠，也沒有 Ctrl+C V 複製貼上的功能，可以說是非常單純乾淨的學習環境。玩了兩三天又不甘寂莫地想找出更多玩法，除了使用 bython，還可以用 nano 編輯器寫簡單的代碼作業，於是想著怎樣把單板機上的資料能在不同設備之間共用分享。
+
+最方便的方法應是透過 githbu repo 的來同步分享追踪。ubuntu 自帶 git 無需另行下載，不過比較頭疼的是如何把 [ssh public key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) 加到自己的 github 帳戶底下，以便更輕鬆地在不同電腦之間進行代碼筆記更新。後來找到的方式是直接把 micro-sd 取出來在 linux 桌機或筆電上來取讀 ssh key 內容後貼到 github，之後就可以輕鬆地同步 python 學習記錄了。
+
+所以這台小型廉價電腦不只可作為學習 python 的輔助工具，同時也可用來熟練 git 功能操作XD。
