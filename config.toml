@@ -159,7 +159,7 @@ defaultContentLanguage = "en"           # Default language to use
     appKey = ""
 
   [params.commentCount.disqus] # show counts of comments for Disqus
-    enable = false
+    enable = true
 
   [params.social]                                         # 社交链接
     a-email = "mailto:your@email.com"
@@ -167,7 +167,7 @@ defaultContentLanguage = "en"           # Default language to use
     e-linkedin = "http://localhost:1313"
     g-github = "https://github.com/jxtsai"
     l-tumblr = "https://video.jxtsai.info"
-    m-instagram = "https://instagram.com/jxtsai"
+    m-instagram = "https://pixelfed.social/jxtsai"
     n-gitlab = "https://gitlab.com/jxtsai"
 
 
