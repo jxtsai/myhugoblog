@@ -54,14 +54,13 @@ defaultContentLanguage = "en"           # Default language to use
   identifier = "tags"
   url = "/tags/"
 [[menu.main]]
-  name = "Categories"
+  name = "舊站"
   weight = 40
-  identifier = "categories"
-  url = "/categories/"
+  url = "https://self.jxtsai.info"
 [[menu.main]]
   name = "NGO 推進器"
   weight = 50
-  url = "https://medium.twngo.xyz"
+  url = "https://www.twngo.xyz"
 
 
 [params]
